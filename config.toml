@@ -1,0 +1,10 @@
+baseURL = "https://malleable.systems/"
+languageCode = "en-gb"
+title = "Malleable Systems Lab"
+theme = "ananke"
+
+[params]
+  github = "https://github.com/malleable-systems"
+
+[permalinks]
+  posts = "/blog/:year/:month/:day/:title/"
