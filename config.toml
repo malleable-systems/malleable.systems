@@ -8,4 +8,6 @@ github = "https://github.com/malleable-systems"
 
 [permalinks]
 posts = "/blog/:year/:month/:day/:title/"
+tags = "/blog/tags/:title/"
+categories = "/blog/categories/:title/"
 pages = "/:title/"
