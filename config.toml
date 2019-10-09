@@ -8,3 +8,4 @@ theme = "ananke"
 
 [permalinks]
   posts = "/blog/:year/:month/:day/:title/"
+  pages = "/:title/"

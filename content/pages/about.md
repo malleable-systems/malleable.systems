@@ -5,4 +5,5 @@ tags = []
 categories = []
 featured_image = ""
 description = ""
+menu = "main"
 +++
