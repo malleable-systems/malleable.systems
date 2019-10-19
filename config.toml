@@ -6,6 +6,7 @@ theme = "ananke"
 [params]
 mainSections = ["blog"]
 github = "https://github.com/malleable-systems"
+twitter = "https://twitter.com/malleablesys"
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:title/"
