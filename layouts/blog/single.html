@@ -34,8 +34,12 @@
       {{ end }}
     </header>
 
-    <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <section class="lh-copy f4 nested-img mid-gray pr4-l w-two-thirds-l">
       {{- .Content -}}
+      <hr/>
+      <div class="tr f5 mv1">
+        We welcome your <a href="mailto:feedback@malleable.systems">feedback by e-mail</a>.
+      </div>
       {{- partial "tags.html" . -}}
       <div class="mt6">
       {{ if .Site.DisqusShortname }}
