@@ -1,0 +1,8 @@
+article a:visited,
+article a:link {
+    color: inherit;
+}
+
+article a:hover {
+  color: #222;
+}
