@@ -1,0 +1,19 @@
+baseURL: https://malleable.systems/
+languageCode: en-gb
+title: Malleable Systems Lab
+theme: ananke
+enableRobotsTXT: true
+
+params:
+  licenseURL: https://creativecommons.org/licenses/by-sa/4.0/
+  licenseName: CC BY-SA 4.0
+  mainSections:
+    - blog
+  github: https://github.com/malleable-systems
+  twitter: https://twitter.com/malleablesys
+
+permalinks:
+  blog: /blog/:year/:month/:day/:title/
+  tags: /blog/tags/:title/
+  categories: /blog/categories/:title/
+  pages: /:title/

@@ -1,9 +1,9 @@
-+++
-title = "Code of Conduct"
-featured_image = ""
-description = ""
-menu = "footer"
-+++
+---
+title: Code of Conduct
+featured_image:
+description:
+menu: footer
+---
 
 ## Our Pledge
 
