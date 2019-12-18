@@ -1,11 +1,11 @@
 ---
-title: Hello
-date: 2019-10-01T02:12:04+01:00
+title: More
+date: 2019-12-18T21:52:28Z
 author: "[J. Ryan Stinnett](https://convolv.es)"
 tags:
 categories:
 featured_image:
-description: Lorem ipsum dolor sit amet
+description:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel molestie ex, ut
