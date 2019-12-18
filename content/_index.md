@@ -33,5 +33,6 @@ in everyday life grows with each passing year, we must fight for these values to
 ensure the power of computing is evenly distributed.
 
 We hope you agree this is a revolution worth fighting for. We welcome your
-feedback and submissions of related projects and experiments from yourself and
-others. Follow the community on Twitter, our blog, or our newsletter.
+[feedback](mailto:feedback@malleable.systems) and submissions of related projects and experiments from yourself and
+others. Follow the community on [Twitter](https://twitter.com/malleablesys), our
+[blog]({{< ref "blog/_index.md" >}}), or our newsletter.

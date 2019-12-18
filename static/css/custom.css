@@ -6,3 +6,11 @@ article a:link {
 article a:hover {
   color: #222;
 }
+
+.twitter:hover {
+  fill: #888;
+}
+
+.github:hover {
+  fill: #888;
+}
