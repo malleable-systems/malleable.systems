@@ -17,3 +17,8 @@ permalinks:
   tags: /blog/tags/:title/
   categories: /blog/categories/:title/
   pages: /:title/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
