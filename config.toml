@@ -4,6 +4,8 @@ title = "Malleable Systems Lab"
 theme = "ananke"
 
 [params]
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0/"
+licenseName = "Creative Commons"
 mainSections = ["blog"]
 github = "https://github.com/malleable-systems"
 twitter = "https://twitter.com/malleablesys"
