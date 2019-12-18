@@ -2,6 +2,7 @@ baseURL = "https://malleable.systems/"
 languageCode = "en-gb"
 title = "Malleable Systems Lab"
 theme = "ananke"
+enableRobotsTXT = true
 
 [params]
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0/"
