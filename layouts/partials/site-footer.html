@@ -1,11 +1,20 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between items-center">
-    <div class="f7 fw4 white-70 dn dib-ns pv2 ph3">
-      Site content available under a
+    <ul class="f7 fw4 white-70 dn dib-ns ph3">
+      <li class="list mv1">
+        Site content available under the
         <a class="hover-white white-70"
            href="{{ .Site.Params.LicenseURL }}"
-        >{{ .Site.Params.LicenseName }}</a> license.
-    </div>
+        >{{ .Site.Params.LicenseName }}</a> license
+      </li>
+      {{ range .Site.Menus.footer }}
+      <li class="list mv1">
+        <a class="hover-white white-70" href="{{ .URL }}" title="{{ .Name }} page">
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
     <div>{{ partial "social-follow.html" . }}</div>
   </div>
 </footer>
