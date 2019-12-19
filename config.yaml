@@ -17,6 +17,7 @@ params:
   email: mailto:feedback@malleable.systems
   twitter: https://twitter.com/malleablesys
   github: https://github.com/malleable-systems
+  source: https://github.com/malleable-systems/malleable.systems
 
 social:
   twitter: malleablesys

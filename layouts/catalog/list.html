@@ -1,0 +1,64 @@
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph4-ns">
+
+    <header class="mt4 w-100">
+      <h1 class="f1 mb1">
+        {{- .Title -}}
+      </h1>
+      {{ if .Date }}
+      <time class="f6 mv1 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{- .Date.Format "January 2, 2006" -}}
+      </time>
+      {{ end }}
+    </header>
+
+    <section class="lh-copy f5 mid-gray pr4-l w-two-thirds-l">
+      {{- .Content -}}
+
+      <h1 id="actors">
+        People and Groups
+      </h1>
+
+      <ul class="grid gtc3 list pl0">
+        {{ range $key, $val := .Site.Data.catalog.actors }}
+        <li id="actor-{{ $key }}">
+          <img class="w4 br-100 ba" src="{{ .avatar }}" />
+          <h3 class="f4 mv0">{{ .name }}</h3>
+          <div>
+            {{ with .website }}
+            <a href="{{ . }}"
+               target="_blank" rel="noopener" title="Website"
+               class="link-transition social link">
+              <i class="fas fa-home"></i>
+            </a>
+            {{ end }}
+            {{ with .twitter }}
+            <a href="https://twitter.com/{{ . }}"
+               target="_blank" rel="noopener" title="Twitter"
+               class="link-transition social link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            {{ end }}
+          </div>
+          {{ with .role }}<div>{{ . }}</div>{{ end }}
+        </div>
+        {{ end }}
+      </ul>
+
+      <hr/>
+      <div class="tr f5 mv1">
+        We welcome your <a href="{{ .Site.Params.email }}">feedback</a>
+        and <a href="{{ .Site.Params.source }}">contributions</a>.
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+      {{- partial "menu-contextual.html" . -}}
+    </aside>
+
+  </article>
+{{ end }}

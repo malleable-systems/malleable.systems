@@ -18,3 +18,11 @@ article a:hover {
 .social:hover {
   color: #888;
 }
+
+.grid {
+  display: grid;
+}
+
+.gtc3 {
+  grid-template-columns: repeat(3, 1fr);
+}
