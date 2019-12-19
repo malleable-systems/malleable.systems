@@ -17,6 +17,9 @@ params:
   github: https://github.com/malleable-systems
   twitter: https://twitter.com/malleablesys
 
+social:
+  twitter: malleablesys
+
 permalinks:
   blog: /blog/:year/:month/:day/:title/
   tags: /blog/tags/:title/
