@@ -3,11 +3,13 @@
    class="link-transition social link dib z-999 mr1">
   <i class="fas fa-rss fa-2x"></i>
 </a>
-<a href="mailto:feedback@malleable.systems"
+{{ with .Param "email" }}
+<a href="{{ . }}"
    target="_blank" rel="noopener" title="Email"
    class="link-transition social link dib z-999 mr1">
   <i class="fas fa-envelope fa-2x"></i>
 </a>
+{{ end }}
 {{ with .Param "twitter" }}
 <a href="{{ . }}"
    target="_blank" rel="noopener" title="Twitter"

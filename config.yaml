@@ -14,8 +14,9 @@ params:
   licenseName: CC BY-SA 4.0
   mainSections:
     - blog
-  github: https://github.com/malleable-systems
+  email: mailto:feedback@malleable.systems
   twitter: https://twitter.com/malleablesys
+  github: https://github.com/malleable-systems
 
 social:
   twitter: malleablesys

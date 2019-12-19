@@ -42,7 +42,7 @@
       {{- .Content -}}
       <hr/>
       <div class="tr f5 mv1">
-        We welcome your <a href="mailto:feedback@malleable.systems">feedback by email</a>.
+        We welcome your <a href="{{ .Site.Params.email }}">feedback by email</a>.
       </div>
       {{- partial "tags.html" . -}}
       <div class="mt6">
