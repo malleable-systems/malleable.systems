@@ -10,9 +10,13 @@
       <h1 class="f1 mb1">
         {{- .Title -}}
       </h1>
-      {{ with .Params.author }}
-      <p class="tracked">
-         By <strong>{{ . | markdownify }}</strong>
+      {{ if .Params.author }}
+      <p class="flex items-center tracked">
+        By
+        {{ with .Params.authorAvatar }}
+        <img class="w2 br-100 mh2 ba" src="/avatars/{{ . }}.jpg" alt="avatar" />
+        {{ end }}
+        <strong>{{ .Params.author | markdownify }}</strong>
       </p>
       {{ end }}
       {{/* Hugo uses Go's date formatting is set by example. Here are two

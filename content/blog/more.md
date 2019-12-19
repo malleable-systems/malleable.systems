@@ -2,6 +2,7 @@
 title: More
 date: 2019-12-18T21:52:28Z
 author: "[J. Ryan Stinnett](https://convolv.es)"
+authorAvatar: jryans
 tags:
 categories:
 featured_image:
