@@ -1,5 +1,6 @@
 {{ define "header" }}
   {{ partial "page-header.html" . }}
+  <script src="/js/shuffle.js"></script>
 {{ end }}
 
 {{ define "main" }}
@@ -23,7 +24,7 @@
         People and Groups
       </h1>
 
-      <ul class="grid-ns gtc2-m gtc3-l list pl0">
+      <ul class="shuffle grid-l gtc2-m gtc3-l list pl0">
         {{ range $key, $val := .Site.Data.catalog.actors }}
         <li id="actor-{{ $key }}">
           <img class="w4 br-100 ba" src="{{ .avatar }}" />

@@ -15,3 +15,5 @@ If you know of people or projects that should be added, please
 [contribute](https://github.com/malleable-systems/malleable.systems) or [send us
 a note](mailto:feedback@malleable.systems). Similarly, please let us know about
 anything that should be removed or corrected.
+
+_Order in the catalog is randomised on each page load._
