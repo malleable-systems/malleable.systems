@@ -23,6 +23,44 @@ article a:hover {
   display: grid;
 }
 
+.gtc2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .gtc3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (min-width:30em) {
+  .grid-ns {
+    display: grid;
+  }
+}
+
+@media screen and (min-width:30em) and (max-width:60em) {
+  .grid-m {
+    display: grid;
+  }
+
+  .gtc2-m {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gtc3-m {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width:60em) {
+  .grid-l {
+    display: grid;
+  }
+
+  .gtc2-l {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gtc3-l {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
