@@ -11,10 +11,10 @@ article a:hover {
   color: #222;
 }
 
-.twitter:hover {
-  fill: #888;
+.social {
+  color: #bababa;
 }
 
-.github:hover {
-  fill: #888;
+.social:hover {
+  color: #888;
 }
