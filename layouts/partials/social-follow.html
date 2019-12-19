@@ -1,13 +1,24 @@
-<a href="/blog/index.xml" target="_blank" class="link-transition social link dib z-999 mr1" title="Github link" rel="noopener" aria-label="Follow via RSS——Opens in a new window">
-  <i class="fas fa-rss fa-2x" title="RSS"></i>
+<a href="/blog/index.xml"
+   target="_blank" rel="noopener" title="RSS"
+   class="link-transition social link dib z-999 mr1">
+  <i class="fas fa-rss fa-2x"></i>
+</a>
+<a href="mailto:feedback@malleable.systems"
+   target="_blank" rel="noopener" title="Email"
+   class="link-transition social link dib z-999 mr1">
+  <i class="fas fa-envelope fa-2x"></i>
 </a>
 {{ with .Param "twitter" }}
-<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="Twitter link" rel="noopener" aria-label="Follow on Twitter——Opens in a new window">
-  <i class="fab fa-twitter fa-2x" title="Twitter"></i>
+<a href="{{ . }}"
+   target="_blank" rel="noopener" title="Twitter"
+   class="link-transition social link dib z-999 mr1">
+  <i class="fab fa-twitter fa-2x"></i>
 </a>
 {{ end }}
 {{ with .Param "github" }}
-<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="GitHub link" rel="noopener" aria-label="Follow on GitHub——Opens in a new window">
-  <i class="fab fa-github fa-2x" title="GitHub"></i>
+<a href="{{ . }}"
+   target="_blank" rel="noopener" title="GitHub"
+   class="link-transition social link dib z-999 mr1">
+  <i class="fab fa-github fa-2x"></i>
 </a>
 {{ end }}
