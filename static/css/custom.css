@@ -31,6 +31,10 @@ article a:hover {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.gg1 {
+  grid-gap: 1em;
+}
+
 @media screen and (min-width:30em) {
   .grid-ns {
     display: grid;
