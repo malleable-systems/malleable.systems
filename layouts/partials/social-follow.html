@@ -1,11 +1,13 @@
-{{ $icon_size := "32px" }}
+<a href="/blog/index.xml" target="_blank" class="link-transition social link dib z-999 mr1" title="Github link" rel="noopener" aria-label="Follow via RSS——Opens in a new window">
+  <i class="fas fa-rss fa-2x" title="RSS"></i>
+</a>
 {{ with .Param "twitter" }}
-<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="Twitter link" rel="noopener" aria-label="Follow on Twitter——Opens in a new window">
   <i class="fab fa-twitter fa-2x" title="Twitter"></i>
 </a>
 {{ end }}
 {{ with .Param "github" }}
-<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+<a href="{{ . }}" target="_blank" class="link-transition social link dib z-999 mr1" title="GitHub link" rel="noopener" aria-label="Follow on GitHub——Opens in a new window">
   <i class="fab fa-github fa-2x" title="GitHub"></i>
 </a>
 {{ end }}
