@@ -36,5 +36,5 @@ We hope you agree this is a revolution worth fighting for. We welcome your
 [feedback](mailto:feedback@malleable.systems) and
 [contributions](https://github.com/malleable-systems/malleable.systems) of
 related projects and experiments from yourself and others. You can follow the
-community on [Twitter](https://twitter.com/malleablesys) and our [blog]({{< ref
-"blog/_index.md" >}}).
+community on [Twitter](https://twitter.com/malleablesys) and our [blog]({{<
+relref "blog/_index.md" >}}).
