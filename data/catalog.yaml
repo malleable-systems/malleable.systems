@@ -1,55 +1,46 @@
 actors:
   basman:
     name: Antranig Basman
-    role:
     avatar: /avatars/basman.jpg
     website: http://ponder.org.uk/
     twitter: amb26ponder
   eagan:
     name: James R. Eagan
-    role:
     avatar: /avatars/eagan.jpg
     website: https://james.eagan.fr/
     twitter: dr_eagan
   kell:
     name: Stephen Kell
-    role:
     avatar: /avatars/stephenrkell.jpg
     website: https://www.cs.kent.ac.uk/people/staff/srk21/
     twitter: stephenrkell
   klokmose:
     name: Clemens Nylandsted Klokmose
-    role:
     avatar: /avatars/klokmose.jpg
     website: http://www.klokmose.net/clemens/
     twitter: cklokmose
   hsu:
     name: Weiwei Hsu
-    role:
     avatar: /avatars/glitchyowl.jpg
     website: https://weiweihsu.com/
     twitter: glitchyowl
   inkandswitch:
     name: Ink & Switch
-    role:
     avatar: /avatars/inkandswitch.png
     website: https://www.inkandswitch.com/
     twitter: inkandswitch
   litt:
     name: Geoffrey Litt
-    role:
     avatar: /avatars/litt.jpg
     website: https://www.geoffreylitt.com/
     twitter: geoffreylitt
   stinnett:
     name: J. Ryan Stinnett
-    role: Community organiser, digital plumber
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
     twitter: jryans
   tchernavskij:
     name: Philip Tchernavskij
-    role:
     avatar: /avatars/ptcher.jpg
     website: https://tcher.tech/
     twitter: ptchernavskij
