@@ -45,22 +45,16 @@ actors:
     website: https://tcher.tech/
     twitter: ptchernavskij
 
-projects:
-  liballocs:
-    description:
-    people:
-      - stephenrkell
-      - jryans
-
-papers:
+works:
   basman2018:
+    kind: paper
     authors:
       - basman
       - tchernavskij
     title:
       "What Lies in the Path of the Revolution"
     year: 2018
-    document: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
+    location: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
     quotes:
       - "Many of the technological barriers to ownership, especially as regards
         software, can be seen as embedded in certain questions of “reuse” — one
@@ -76,15 +70,16 @@ papers:
         keep using it as part of the collection of tools you carry with you, in
         familiar contexts, or experiment with using it in novel contexts."
   kell2009:
+    kind: paper
     authors:
       - kell
     title:
       "The mythical matched modules: overcoming the tyranny of inflexible
       software construction"
     year: 2009
-    document: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
+    location: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
     quotes:
-      - "Conventional tools yield expensive and inﬂexible software. … I propose
+      - "Conventional tools yield expensive and inﬂexible software. ... I propose
         that a solution must radically separate the concern of integration in
         software: ﬁrstly by using novel tools specialised towards integration
         (the “**integration domain**”), and secondly by prohibiting use of
@@ -94,3 +89,24 @@ papers:
         browser extensions has already led to added-value innovations which
         could not have been anticipated by the creators of the underlying
         software."
+  liballocs:
+    kind: library
+    authors:
+      - name: kell
+        type: owner
+      - name: stinnett
+        type: contributor
+    title: liballocs
+    location: https://github.com/stephenrkell/liballocs
+    description:
+      "Meta-level run-time services for Unix processes... a.k.a. dragging Unix
+      into the 1980s"
+    quotes:
+      - "Unix abstractions are fairly simple and fairly general, but they are
+        not humane, and they invite fragmentation. By 'not humane', I mean that
+        they are error-prone and difficult to experiment with interactively. By
+        'fragmentation', I mean they invite building higher-level abstractions
+        in mutually opaque and incompatible ways (think language VMs, file
+        formats, middlewares...). To avoid these, liballocs is a minimal
+        extension of Unix-like abstractions broadly in the spirit of
+        Smalltalk-style dynamism, designed to counter both of these problems."
