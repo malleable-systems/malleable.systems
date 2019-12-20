@@ -62,3 +62,44 @@ projects:
       - jryans
 
 papers:
+  basman2018:
+    authors:
+      - basman
+      - tchernavskij
+    title:
+      "What Lies in the Path of the Revolution"
+    year: 2018
+    document: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
+    quotes:
+      - "Many of the technological barriers to ownership, especially as regards
+        software, can be seen as embedded in certain questions of “reuse” — one
+        of the central affordances of ownership is the ability to transplant a
+        thing from its original location to a different one, following the
+        desires or person of the owner. For most kinds of software this is
+        possible in only a crude way — an “application” can be installed on one
+        machine rather than another — and with the rising prevalence of rental
+        or cloud-based models for the deployment of software, it is decreasingly
+        possible at all."
+      - "If you find a piece of software that does something of value to you,
+        **it should be possible to make it your own**. This implies that you can
+        keep using it as part of the collection of tools you carry with you, in
+        familiar contexts, or experiment with using it in novel contexts."
+  kell2009:
+    authors:
+      - kell
+    title:
+      "The mythical matched modules: overcoming the tyranny of inflexible
+      software construction"
+    year: 2009
+    document: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
+    quotes:
+      - "Conventional tools yield expensive and inﬂexible software. … I propose
+        that a solution must radically separate the concern of integration in
+        software: ﬁrstly by using novel tools specialised towards integration
+        (the “**integration domain**”), and secondly by prohibiting use of
+        preexisting interfaces (“interface hiding”) outside that domain."
+      - "Placing high-level tool support for integration and adaptation close to
+        the user, for example within web application mashup platforms and
+        browser extensions has already led to added-value innovations which
+        could not have been anticipated by the creators of the underlying
+        software."

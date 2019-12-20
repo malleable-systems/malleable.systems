@@ -17,8 +17,46 @@
       {{ end }}
     </header>
 
-    <section class="lh-copy f5 mid-gray pr4-l">
+    <section id="catalog" class="lh-copy f5 mid-gray pr4-l">
       {{- .Content -}}
+
+      <h1 id="papers">
+        Papers
+      </h1>
+
+      <ul class="shuffle list pl0">
+        {{ range $key, $val := .Site.Data.catalog.papers }}
+        <li id="paper-{{ $key }}">
+          <i class="fas fa-file w1"></i>
+          <span>
+          {{ range $aKey, $aVal := .authors }}
+            {{ $author := index $.Site.Data.catalog.actors . }}
+            {{ if $author }}
+            <span class="author"><a href="#actor-{{ . }}">{{ $author.name }}</a></span>
+            {{ else }}
+            <span class="author">{{ . }}</span>
+            {{ end }}
+          {{ end }}
+          </span>
+          {{ if .document }}
+          <a href="{{ .document }}"
+             target="_blank" rel="noopener"
+          ><span class="b mv0">{{ .title }}</span></a>.
+          {{ else }}
+          <span class="b mv0">{{ .title }}</span>.
+          {{ end }}
+          <span>{{ .year }}</span>.
+          {{ with .quotes }}
+          <ul>
+            <div class="mb1">Selected Quotes</div>
+            {{ range . }}
+            <blockquote class="slimquote">{{ . | markdownify }}</blockquote>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </ul>
 
       <h1 id="actors">
         People and Groups

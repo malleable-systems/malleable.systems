@@ -72,3 +72,16 @@ article a:hover {
 .shuffle {
   visibility: hidden;
 }
+
+.author::after {
+  content: ", ";
+}
+
+.author:last-child::after {
+  content: ".";
+}
+
+#catalog .slimquote {
+  margin: 0;
+  margin-bottom: 1em;
+}
