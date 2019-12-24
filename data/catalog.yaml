@@ -96,7 +96,9 @@ works:
         type: owner
       - name: stinnett
         type: contributor
-    title: liballocs
+    title:
+      liballocs
+    year: 2011 — present
     location: https://github.com/stephenrkell/liballocs
     description:
       "Meta-level run-time services for Unix processes... a.k.a. dragging Unix
