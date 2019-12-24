@@ -26,7 +26,7 @@
 
       <ul class="shuffle list pl0">
         {{ range $key, $val := .Site.Data.catalog.works }}
-        <li id="work-{{ $key }}" class="mv2">
+        <li id="{{ $key }}" class="mv2">
           {{ if eq .kind "paper"}}
           <i class="fas fa-file w1 tc" title="Paper"></i>
           {{ else if eq .kind "library"}}
@@ -38,14 +38,14 @@
               {{ $author := index $.Site.Data.catalog.actors .name }}
               {{ if $author }}
               <span class="author">
-                <a href="#actor-{{ . }}">{{ $author.name }}</a> ({{ .type }})</span>
+                <a href="#{{ . }}">{{ $author.name }}</a> ({{ .type }})</span>
               {{ else }}
               <span class="author">{{ . }}</span>
               {{ end }}
             {{ else }}
               {{ $author := index $.Site.Data.catalog.actors . }}
               {{ if $author }}
-              <span class="author"><a href="#actor-{{ . }}">{{ $author.name }}</a></span>
+              <span class="author"><a href="#{{ . }}">{{ $author.name }}</a></span>
               {{ else }}
               <span class="author">{{ . }}</span>
               {{ end }}
@@ -78,7 +78,7 @@
 
       <ul class="shuffle grid gtc2-m gtc3-l gg1 list pl0">
         {{ range $key, $val := .Site.Data.catalog.actors }}
-        <li id="actor-{{ $key }}">
+        <li id="{{ $key }}">
           <img class="w4 br-100 ba" src="{{ .avatar }}" />
           <h3 class="f4 mv0">{{ .name }}</h3>
           <div>
