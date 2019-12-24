@@ -112,3 +112,24 @@ works:
         formats, middlewares...). To avoid these, liballocs is a minimal
         extension of Unix-like abstractions broadly in the spirit of
         Smalltalk-style dynamism, designed to counter both of these problems."
+  space:
+    kind: thesis
+    authors:
+      - hsu
+    title:
+      "The “Space” of Computing"
+    year: 2018
+    location: https://www.youtube.com/watch?v=nVFS85Zx6uw
+    description:
+      "Our conception of “computing” has changed and continues to change. This
+      work identifies dimensions that constitute the “space of computing”."
+    image: /works/space.png
+    quotes:
+      - "Currently, only those who have a programming background or resources
+        have the ability to create digital artifacts. This forces the rest of
+        the world to be consumers, rather than creators or authors. When
+        creating digital products, our conception of target audience is “users.”
+        The notion of “users” sometimes assumes that their main goal is
+        consuming instead of playing, creating, or conversing. What if the
+        digital environment was inclusive enough for anyone to create? How can
+        we provide the tools that will enable everyone to become authors?"

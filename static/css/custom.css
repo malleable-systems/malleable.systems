@@ -84,3 +84,8 @@ article a:hover {
 #catalog .slimquote {
   margin: 1em 0;
 }
+
+#catalog i {
+  width: 1rem;
+  font-size: 13px;
+}
