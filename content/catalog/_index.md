@@ -5,10 +5,10 @@ description:
 menu: main
 ---
 
-This catalog highlights projects, people, groups, research, and other
-initiatives in the malleable software community. It is our hope that bringing
-more awareness to these efforts will lead to greater collaboration and better
-systems for us all that support the [essential principles]({{< relref
+This catalog highlights projects, people, groups, research, discussions, and
+other initiatives in the malleable software community. It is our hope that
+bringing more awareness to these efforts will lead to greater collaboration and
+better systems for us all that support the [essential principles]({{< relref
 "../_index.md">}}) of malleability.
 
 If you know of people or projects that should be added, please
