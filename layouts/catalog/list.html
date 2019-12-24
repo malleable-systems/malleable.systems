@@ -26,7 +26,7 @@
 
       <ul class="shuffle list pl0">
         {{ range $key, $val := .Site.Data.catalog.works }}
-        <li id="{{ $key }}" class="mv2">
+        <li id="{{ $key }}" class="mv2 cf">
           {{ if eq .kind "paper"}}
           <i class="fas fa-file tc" title="Paper"></i>
           {{ else if eq .kind "library"}}

@@ -173,3 +173,29 @@ works:
         consuming instead of playing, creating, or conversing. What if the
         digital environment was inclusive enough for anyone to create? How can
         we provide the tools that will enable everyone to become authors?"
+  webstrates:
+    kind: paper
+    authors:
+      - klokmose
+      - eagan
+      - Siemen Baader
+      - Wendy Mackay
+      - Michel Beaudouin-Lafon
+    title:
+      "Webstrates: Shareable Dynamic Media"
+    year: 2015
+    location: http://www.klokmose.net/clemens/wp-content/uploads/2015/08/webstrates.pdf
+    image: /works/webstrates.png
+    quotes:
+      - "Webstrates offer a novel approach for creating shareable dynamic media
+        that blur the distinction between documents and applications. Our vision
+        requires software to be malleable by users, so they can appropriate
+        documents and tools to meet individual needs; shareable among users, so
+        they can collaborate on multiple aspects of the media; and distributable
+        across heterogeneous devices and platforms."
+      - "By sharing embedded code, behavior typically associated with
+        application software can also be (collaboratively) manipulated, opening
+        the way to novel possibilities for combining content, computation and
+        interaction. Webstrates can be composed by embedding one webstrate
+        within another, a process called transclusion, that lets users
+        truly share, rather than copy, content."
