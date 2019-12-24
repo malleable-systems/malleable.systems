@@ -35,6 +35,8 @@
           <i class="fas fa-graduation-cap tc" title="Thesis"></i>
           {{ else if eq .kind "tweet"}}
           <i class="fab fa-twitter tc" title="Tweet"></i>
+          {{ else if eq .kind "post"}}
+          <i class="fas fa-newspaper tc" title="Post"></i>
           {{ end }}
           <span>
           {{ range .authors }}

@@ -51,6 +51,24 @@ actors:
     twitter: ptchernavskij
 
 works:
+  browserextensions:
+    kind: post
+    authors:
+      - litt
+    title:
+      "Browser extensions are underrated: the promise of hackable software"
+    year: 2019
+    location: https://www.geoffreylitt.com/2019/07/29/browser-extensions.html
+    quotes:
+      - "Among major software platforms today, browser extensions are the rare
+        exception that allow and encourage users to modify the apps that we use,
+        in creative ways not intended by their original developers. On
+        smartphone and desktop platforms, this sort of behavior ranges from
+        unusual to impossible, but in the browser it’s an everyday activity."
+      - "Since the beginning of personal computing, there’s been a philosophical
+        tradition that encourages using computers as an interactive medium where
+        people contribute their own ideas and build their own tools—authorship
+        over consumption."
   liballocs:
     kind: library
     authors:
