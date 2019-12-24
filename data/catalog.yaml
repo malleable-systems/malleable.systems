@@ -69,6 +69,26 @@ works:
         tradition that encourages using computers as an interactive medium where
         people contribute their own ideas and build their own tools—authorship
         over consumption."
+  enduser:
+    kind: paper
+    authors:
+      - inkandswitch
+    title:
+      "End-user programming"
+    year: 2019
+    location: https://www.inkandswitch.com/end-user-programming.html
+    quotes:
+      - "Desktop programs, web apps, and smartphone apps are to various degrees
+        like appliances with a hermetic seal to keep users out of their
+        interior. If there is not already a button for a given function, the
+        only option for users is to petition the developer."
+      - "There shouldn’t be a chasm that the user has to cross in order to
+        customize the behavior of their software. Going from using to inspecting
+        to modifying the system should be a gradual process where each of
+        the steps is small enough to be easily discoverable. The user should not
+        need to switch to “programmer mindset” but instead stay within the
+        context of the application. They can stay close to their work and their
+        ideas."
   liballocs:
     kind: library
     authors:
