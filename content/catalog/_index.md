@@ -3,6 +3,7 @@ title: Catalog
 featured_image:
 description:
 menu: main
+weight: 2
 ---
 
 This catalog highlights projects, people, groups, research, discussions, and
