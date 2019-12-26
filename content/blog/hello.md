@@ -7,6 +7,7 @@ tags:
 categories:
 featured_image:
 description: Lorem ipsum dolor sit amet
+draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel molestie ex, ut
