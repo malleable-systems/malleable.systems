@@ -11,7 +11,8 @@ bringing more awareness to these efforts will lead to greater collaboration and
 better systems for us all that support the [essential principles]({{< relref
 "../_index.md">}}) of malleability.
 
-If you know of people or projects that should be added, please
+If you know of people, projects, threads, or anything else that should be
+added, please
 [contribute](https://github.com/malleable-systems/malleable.systems) or [send us
 a note](mailto:feedback@malleable.systems). Similarly, please let us know about
 anything that should be removed or corrected.
