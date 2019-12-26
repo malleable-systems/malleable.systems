@@ -46,7 +46,7 @@ process.
 
 We hope you'll join the fight to save us all from [digital serfdom][revolution].
 
-[mission]: {{< relref "/pages/about.md">}}
+[mission]: {{< relref "/pages/mission.md">}}
 [catalog]: {{< relref "/catalog/_index.md">}}
 [feedback]: mailto:feedback@malleable.systems
 [garage]: https://twitter.com/andy_matuschak/status/1202688789153345536
