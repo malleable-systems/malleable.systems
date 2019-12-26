@@ -16,7 +16,7 @@ Welcome to the Malleable Systems Lab, a community space for those interested in
 redefining our relationship with software by dismantling the boundaries of
 contemporary applications.
 
-If you haven't already, read through the [lab's mission][mission] to get an idea
+If you haven't already, read through the Lab's [mission][mission] to get an idea
 of the revolution we're working towards. While we believe this mission is
 achievable, it will likely take many years and the work of many people to
 achieve. Quite a few of the ideas that our mission is built around have been
