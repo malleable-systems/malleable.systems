@@ -89,3 +89,11 @@ article a:hover {
   width: 1rem;
   font-size: 13px;
 }
+
+#TableOfContents ul {
+  padding-left: 1.5rem;
+}
+
+#TableOfContents ul li {
+  margin: 0.5rem 0;
+}
