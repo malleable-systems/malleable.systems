@@ -10,9 +10,9 @@ Modern computing is far too rigid. Applications can only function in preset ways
 determined by some far away team. Software is trapped in hermetically sealed
 silos and is rewritten many times over rather than recomposed.
 
-This community [catalogs]({{< relref "catalog/_index.md" >}}), builds, and
-experiments with **malleable software and systems** that reset the balance of
-power via several essential principles:
+This community [catalogs][catalog], builds, and experiments with **malleable
+software and systems** that reset the balance of power via several essential
+principles:
 
 1. Software must be as **easy to change** as it is to use it
 2. All layers, from the user interface through functionality to the data within,
@@ -34,8 +34,12 @@ in everyday life grows with each passing year, we must fight for these values to
 ensure the power of computing is evenly distributed.
 
 We hope you agree this is a revolution worth fighting for. We welcome your
-[feedback](mailto:feedback@malleable.systems) and
-[contributions](https://github.com/malleable-systems/malleable.systems) of
-related projects and experiments from yourself and others. You can follow the
-community on [Twitter](https://twitter.com/malleablesys) and our [blog]({{<
-relref "blog/_index.md" >}}).
+[feedback][feedback] and [contributions][contribute] of related projects and
+experiments from yourself and others. You can follow the community on
+[Twitter][twitter] and our [blog][blog].
+
+[catalog]: {{< relref "/catalog/_index.md">}}
+[contribute]: https://github.com/malleable-systems/malleable.systems
+[feedback]: mailto:feedback@malleable.systems
+[twitter]: https://twitter.com/malleablesys
+[blog]: {{< relref "/blog/_index.md" >}}
