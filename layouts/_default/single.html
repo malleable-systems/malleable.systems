@@ -36,6 +36,10 @@
 
     <section class="nested-copy-line-height lh-copy f5 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
       {{- .Content -}}
+      <hr/>
+      <div class="tr f5 mv1">
+        We welcome your <a href="{{ .Site.Params.email }}">feedback by email</a>.
+      </div>
       {{- partial "tags.html" . -}}
       <div class="mt6">
       {{ if .Site.DisqusShortname }}
