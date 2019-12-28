@@ -117,8 +117,8 @@ some separate development toolchain and skill set.[^3]_
 
 In the current ecosystem, it is _possible_ for software experts to achieve
 limited change, but to do so, they must use a set of tools and skills that are
-completely separate from the application itself. This far too high of a bar to
-make a simple customisation to some tool you use every day.
+completely separate from the application itself. This is far too high of a bar
+to make a simple customisation to some tool you use every day.
 
 Instead, it should be possible to _modify_ a system using interfaces and
 techniques that are consistent with _using_ the same system. This allows you to
