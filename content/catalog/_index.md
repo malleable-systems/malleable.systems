@@ -20,4 +20,4 @@ _Order in the catalog is randomised on each page load._
 
 [principles]: {{< relref "/_index.md">}}
 [contribute]: https://github.com/malleable-systems/malleable.systems
-[feedback]: mailto:feedback@malleable.systems
+[feedback]: mailto:hello@malleable.systems

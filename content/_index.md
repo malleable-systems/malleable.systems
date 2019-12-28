@@ -40,6 +40,6 @@ experiments from yourself and others. You can follow the community on
 
 [catalog]: {{< relref "/catalog/_index.md">}}
 [contribute]: https://github.com/malleable-systems/malleable.systems
-[feedback]: mailto:feedback@malleable.systems
+[feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
 [blog]: {{< relref "/blog/_index.md" >}}
