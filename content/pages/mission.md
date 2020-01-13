@@ -96,6 +96,13 @@ pulling apart an application or service), we must ensure there's a clear path
 for anyone interested to keep those dependencies alive so that their workflows
 are not disturbed if the remote service were to shut down.
 
+This has many parallels with the ongoing movement towards data ownership, which
+is gaining popular awareness. Although the data ownership movement typically
+focuses on identity and social data, the programs and customisations that
+authors create are personal creative expressions. Authors must retain ownership
+of their data, programs, and customisations just as anyone would
+expect to have control over a book they wrote or art they created.
+
 ### Freely sharable
 
 _Recombined workflows and experiences must be freely sharable with others.[^2]_
