@@ -40,6 +40,11 @@
       <div class="tr f5 mv1">
         We welcome your <a href="{{ .Site.Params.email }}">feedback by email</a>.
       </div>
+      {{ with .Params.postscript }}
+      <div class="tr f7 mv1">
+        {{ . }}
+      </div>
+      {{ end }}
       {{- partial "tags.html" . -}}
       <div class="mt6">
       {{ if .Site.DisqusShortname }}
