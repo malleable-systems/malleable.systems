@@ -38,7 +38,7 @@ the app stores of smartphones and increasingly on desktop operating systems as
 well, each application is sandboxed and effectively untouchable by you, the
 owner of the hardware on which it runs.
 
-We must empower each user to tailor and customise their computing experience in
+We must empower people to tailor and customise their computing experience in
 ways to support their personal workflows which likely will be never be
 prioritised or even imagined by the original application vendor.
 
@@ -84,8 +84,8 @@ to be pre-imagined by the creators of the system.
 
 _People of all experience levels must be able to retain ownership and control._
 
-A fundamental problem of today's software ecosystem is that users do not own or
-control the software that runs on their devices. In addition, much of the actual
+A fundamental problem of today's software ecosystem is that we do not own or
+control the software that runs on our devices. In addition, much of the actual
 processing logic has been passed off to remote systems in the cloud, so only the
 inputs and outputs are observable.
 
@@ -93,14 +93,14 @@ We must ensure that malleable software approaches allow the customisations and
 personal workflows you create to be owned and used as you see fit. If an
 approach relies on some amount of remote functionality (perhaps to assist with
 pulling apart an application or service), we must ensure there's a clear path
-for users to keep those dependencies alive so that their workflows are not
-disturbed if the remote service were to shut down.
+for anyone interested to keep those dependencies alive so that their workflows
+are not disturbed if the remote service were to shut down.
 
 ### Freely sharable
 
 _Recombined workflows and experiences must be freely sharable with others.[^2]_
 
-Malleable system approaches must allow each user to share their creations as
+Malleable system approaches must allow each author to share their creations as
 they see fit. For example, it must be possible to share a workflow you've
 created with a curious friend or coworker by using a transmission channel that
 does not depend on a centralised service. Similarly, you must have the option of
@@ -134,8 +134,8 @@ _Computing should be a thoughtfully crafted, fun, and empowering experience._
 Modern computing is a jungle of arcane, inscrutable tools that throw up walls of
 difficult to parse errors that slowly chip away at your enjoyment of the
 creative work of building something new. While today much of this is only seen
-by software developers, it does sometimes leak through to users, such as when
-raw error messages are displayed.
+by software developers, it does sometimes leak through, such as when raw error
+messages are displayed.
 
 If we are to have any hope of giving all people the same power over computers
 currently accessible only to experts, we must get rid of these obstacles by
