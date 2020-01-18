@@ -6,9 +6,7 @@ enableRobotsTXT: true
 
 params:
   custom_css:
-    - css/fontawesome/fontawesome.css
-    - css/fontawesome/brands.css
-    - css/fontawesome/solid.css
+    - css/forkawesome/fork-awesome.css
     - css/custom.css
   licenseURL: https://creativecommons.org/licenses/by-sa/4.0/
   licenseName: CC BY-SA 4.0

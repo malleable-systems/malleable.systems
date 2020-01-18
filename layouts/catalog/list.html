@@ -29,15 +29,15 @@
         <li id="{{ $key }}" class="mv2 cf">
           <a href="#{{ $key }}" class="no-underline">
             {{ if eq .kind "paper"}}
-            <i class="fas fa-file tc" title="Paper"></i>
+            <i class="fa fa-file fa-fw" title="Paper"></i>
             {{ else if eq .kind "library"}}
-            <i class="fas fa-tools tc" title="Library"></i>
+            <i class="fa fa-gears fa-fw" title="Library"></i>
             {{ else if eq .kind "thesis"}}
-            <i class="fas fa-graduation-cap tc" title="Thesis"></i>
+            <i class="fa fa-graduation-cap fa-fw" title="Thesis"></i>
             {{ else if eq .kind "tweet"}}
-            <i class="fab fa-twitter tc" title="Tweet"></i>
+            <i class="fa fa-twitter fa-fw" title="Tweet"></i>
             {{ else if eq .kind "post"}}
-            <i class="fas fa-newspaper tc" title="Post"></i>
+            <i class="fa fa-newspaper-o fa-fw" title="Post"></i>
             {{ end }}
           </a>
           <span>
@@ -101,14 +101,14 @@
             <a href="{{ . }}"
                target="_blank" rel="noopener" title="Website"
                class="link-transition social link">
-              <i class="fas fa-home"></i>
+              <i class="fa fa-home"></i>
             </a>
             {{ end }}
             {{ with .twitter }}
             <a href="https://twitter.com/{{ . }}"
                target="_blank" rel="noopener" title="Twitter"
                class="link-transition social link">
-              <i class="fab fa-twitter"></i>
+              <i class="fa fa-twitter"></i>
             </a>
             {{ end }}
           </div>

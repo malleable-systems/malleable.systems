@@ -19,6 +19,12 @@ article a:hover {
   color: #888;
 }
 
+.social .fa-envelope {
+  font-size: 30px;
+  position: relative;
+  top: -2px;
+}
+
 .grid {
   display: grid;
 }
@@ -83,11 +89,6 @@ article a:hover {
 
 #catalog .slimquote {
   margin: 1em 0;
-}
-
-#catalog i {
-  width: 1rem;
-  font-size: 13px;
 }
 
 #TableOfContents ul {
