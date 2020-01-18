@@ -25,6 +25,13 @@ article a:hover {
   top: -2px;
 }
 
+.social .fa-matrix-org {
+  font-size: 28px;
+  font-weight: 900;
+  position: relative;
+  top: -2px;
+}
+
 .grid {
   display: grid;
 }
