@@ -39,7 +39,7 @@ experiments from yourself and others. You can follow the community on
 [Twitter][twitter] and our [blog][blog].
 
 [catalog]: {{< relref "/catalog/_index.md">}}
-[contribute]: https://github.com/malleable-systems/malleable.systems
+[contribute]: https://github.com/malleable-systems/malleable.systems/blob/master/data/catalog.yaml
 [feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
 [blog]: {{< relref "/blog/_index.md" >}}
