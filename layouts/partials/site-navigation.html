@@ -1,8 +1,20 @@
 <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex flex-column flex-row-l justify-between items-center center">
-    <a href="{{ relref . "/_index.md" }}" class="f3 fw2 hover-white no-underline white-90 dib">
-      {{ .Site.Title }}
-    </a>
+    <div class="flex">
+      {{ with .Site.Params.logo }}
+      <img
+        class="pr3"
+        src="/logos/{{ . }}"
+        width="48"
+        height="48"
+      />
+      {{ end }}
+      <div class="flex items-center">
+        <a href="{{ relref . "/_index.md" }}" class="f3 fw2 hover-white no-underline white-90 dib">
+          {{ .Site.Title }}
+        </a>
+      </div>
+    </div>
     <div class="flex flex-column flex-row-l items-center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
