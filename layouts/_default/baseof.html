@@ -45,7 +45,7 @@
     {{- template "_internal/twitter_cards.html" . -}}
   </head>
 
-  <body class="ma0 h-100 flex flex-column {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="ma0 h-100 flex flex-column {{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="flex-grow-1" role="main">
