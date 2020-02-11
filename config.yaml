@@ -10,7 +10,8 @@ params:
     - css/custom.css
   licenseURL: https://creativecommons.org/licenses/by-sa/4.0/
   licenseName: CC BY-SA 4.0
-  logo: square.svg
+  favicon: logos/shortcut.svg
+  logo: header.svg
   mainSections:
     - blog
   email: mailto:hello@malleable.systems
