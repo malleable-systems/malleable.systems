@@ -51,6 +51,15 @@ actors:
     twitter: ptchernavskij
 
 works:
+  malleable:
+    kind: thesis
+    authors:
+      - tchernavskij
+    title:
+      "Designing and Programming Malleable Software"
+    year: 2019
+    description:
+      "In publication."
   browserextensions:
     kind: post
     authors:
