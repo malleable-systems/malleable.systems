@@ -10,6 +10,13 @@
   <i class="fa fa-envelope fa-2x"></i>
 </a>
 {{ end }}
+{{ with .Param "newsletter" }}
+<a href="{{ . }}"
+   target="_blank" rel="noopener" title="Newsletter"
+   class="link-transition social link mr1">
+  <i class="fa fa-send fa-2x"></i>
+</a>
+{{ end }}
 {{ with .Param "twitter" }}
 <a href="{{ . }}"
    target="_blank" rel="noopener" title="Twitter"

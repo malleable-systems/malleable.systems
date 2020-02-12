@@ -15,6 +15,7 @@ params:
   mainSections:
     - blog
   email: mailto:hello@malleable.systems
+  newsletter: https://buttondown.email/malleable-systems
   twitter: https://twitter.com/malleablesys
   matrix: https://matrix.to/#/#malleable-systems:matrix.org
   github: https://github.com/malleable-systems
