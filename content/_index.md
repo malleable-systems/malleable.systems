@@ -36,11 +36,13 @@ ensure the power of computing is evenly distributed.
 We hope you agree this is a revolution worth fighting for. We welcome your
 [feedback][feedback] and [contributions][contribute] of related projects and
 experiments from yourself and others. You can follow the community on
-[Twitter][twitter] and our [blog][blog]. The blog content is also available via our [newsletter][newsletter].
+[Twitter][twitter], [Matrix][matrix], and our [blog][blog]. The blog content is
+also available via our [newsletter][newsletter].
 
 [catalog]: {{< relref "/catalog/_index.md">}}
 [contribute]: https://github.com/malleable-systems/malleable.systems/blob/master/data/catalog.yaml
 [feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
+[matrix]: https://matrix.to/#/#malleable-systems:matrix.org
 [blog]: {{< relref "/blog/_index.md" >}}
 [newsletter]: https://buttondown.email/malleable-systems
