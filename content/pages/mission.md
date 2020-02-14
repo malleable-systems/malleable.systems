@@ -38,8 +38,8 @@ the app stores of smartphones and increasingly on desktop operating systems as
 well, each application is sandboxed and effectively untouchable by you, the
 owner of the hardware on which it runs.
 
-We must empower people to tailor and customise their computing experience in
-ways to support their personal workflows which likely will be never be
+We must empower people to tailor and customise their computing experience to
+support their personal workflows in ways which likely will never be
 prioritised or even imagined by the original application vendor.
 
 Some may believe open source applications achieve this, but having the source
