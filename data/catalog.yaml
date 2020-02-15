@@ -1,26 +1,31 @@
 actors:
   basman:
     name: Antranig Basman
+    affiliation: Raising the Floor - International
     avatar: /avatars/basman.jpg
     website: http://ponder.org.uk/
     twitter: amb26ponder
   eagan:
     name: James R. Eagan
+    affiliation: Télécom Paris
     avatar: /avatars/eagan.jpg
     website: https://james.eagan.fr/
     twitter: dr_eagan
   kell:
     name: Stephen Kell
+    affiliation: University of Kent
     avatar: /avatars/stephenrkell.jpg
     website: https://www.cs.kent.ac.uk/people/staff/srk21/
     twitter: stephenrkell
   klokmose:
     name: Clemens Nylandsted Klokmose
+    affiliation: Aarhus University
     avatar: /avatars/klokmose.jpg
     website: http://www.klokmose.net/clemens/
     twitter: cklokmose
   hsu:
     name: Weiwei Hsu
+    affiliation: California College of the Arts
     avatar: /avatars/glitchyowl.jpg
     website: https://weiweihsu.com/
     twitter: glitchyowl
@@ -31,6 +36,7 @@ actors:
     twitter: inkandswitch
   litt:
     name: Geoffrey Litt
+    affiliation: MIT
     avatar: /avatars/litt.jpg
     website: https://www.geoffreylitt.com/
     twitter: geoffreylitt
@@ -41,11 +47,13 @@ actors:
     twitter: yoshikischmitz
   stinnett:
     name: J. Ryan Stinnett
+    role: Lab organiser
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
     twitter: jryans
   tchernavskij:
     name: Philip Tchernavskij
+    affiliation: OCAD University
     avatar: /avatars/ptcher.jpg
     website: https://tcher.tech/
     twitter: ptchernavskij

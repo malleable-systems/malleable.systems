@@ -104,6 +104,12 @@
         <li id="{{ $key }}">
           <img class="w4 br-100 ba" src="{{ .avatar }}" />
           <h3 class="f4 mv0">{{ .name }}</h3>
+          {{ with .role }}
+          <div>{{ . }}</div>
+          {{ end }}
+          {{ with .affiliation }}
+          <div>{{ . }}</div>
+          {{ end }}
           <div>
             {{ with .website }}
             <a href="{{ . }}"
