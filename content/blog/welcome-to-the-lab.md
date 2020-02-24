@@ -37,7 +37,7 @@ become a comprehensive list of resources for the community.
 
 If you'd like to add your own voice, please [get in touch][feedback]. There are
 many hard problems ahead of us, but I believe we can achieve great things by
-exploring solutions together. The Lab is happy to have contributions of all
+exploring solutions together. The lab is happy to have contributions of all
 kinds in whatever state of completion you're comfortable with sharing, ranging
 from random thoughts you had in the shower through to peer-reviewed research
 publications. We aspire to "[work with the garage door up][garage]" and believe
