@@ -18,9 +18,9 @@
     <div class="flex flex-column flex-row-l items-center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-      <ul class="pl3 mr3-l">
+      <ul class="pl0">
         {{ range .Site.Menus.main }}
-        <li class="list f5 f4-ns fw4 dib pr3">
+        <li class="list f5 f4-ns fw4 dib mh2 mr0-l ml3-l">
           <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
@@ -28,9 +28,6 @@
         {{ end }}
       </ul>
       {{ end }}
-      <div>
-        {{ partialCached "social-follow.html" . }}
-      </div>
     </div>
   </div>
 </nav>
