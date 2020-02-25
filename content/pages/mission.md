@@ -24,7 +24,7 @@ directions.
 
 ## Principles
 
-### Easy to change
+### 1. Easy to change
 
 _Software must be as easy to change as it is to use it.[^1]_
 
@@ -46,7 +46,7 @@ Some may believe open source applications achieve this, but having the source
 available still implies a software engineering toolchain and skill set, which
 effectively prohibits most people from making the changes they desire.
 
-### Arbitrary recombination and reuse
+### 2. Arbitrary recombination and reuse
 
 _All layers, from the user interface through functionality to the data
 within, must support arbitrary recombination and reuse in new environments._
@@ -64,7 +64,7 @@ recombination in a new environment. If I want to grab a UI control from one
 application, some processing logic from another, and run it all against a data
 source from somewhere else again, it should be possible to do so.
 
-### Open-ended potential
+### 3. Open-ended potential
 
 _Tools should strive to be easy to begin working with but still have lots of
 open-ended potential._
@@ -80,7 +80,7 @@ learned more about the system through gradual experience, you could grow into
 the scripting system and achieve a much larger set of things which did not have
 to be pre-imagined by the creators of the system.
 
-### Retain ownership and control
+### 4. Retain ownership and control
 
 _People of all experience levels must be able to retain ownership and control._
 
@@ -103,7 +103,7 @@ authors create are personal creative expressions. Authors must retain ownership
 of their data, programs, and customisations just as anyone would
 expect to have control over a book they wrote or art they created.
 
-### Freely sharable
+### 5. Freely sharable
 
 _Recombined workflows and experiences must be freely sharable with others.[^2]_
 
@@ -119,7 +119,7 @@ workflows have the lucky advantage of being easily copied, but we must ensure we
 don't create artificial restrictions that limit what a workflow creator can do
 with what they have made.
 
-### Modifying in the context of use
+### 6. Modifying in the context of use
 
 _Modifying a system should happen in the context of use, rather than through
 some separate development toolchain and skill set.[^3]_
@@ -134,7 +134,7 @@ techniques that are consistent with _using_ the same system. This allows you to
 naturally build on what you already know about the system at hand while tweaking
 and extending it.
 
-### Thoughtfully crafted
+### 7. Thoughtfully crafted
 
 _Computing should be a thoughtfully crafted, fun, and empowering experience._
 
