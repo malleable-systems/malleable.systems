@@ -5,9 +5,9 @@ description:
 menu: main
 ---
 
-We hope the lab's [mission][mission] has inspired you to follow the community's
-work, post your thoughts, and share your experiments. There are many ways to get
-involved and contribute to this movement.
+We hope the collective's [mission][mission] has inspired you to follow the
+community's work, post your thoughts, and share your experiments. There are many
+ways to get involved and contribute to this movement.
 
 ### Discuss
 

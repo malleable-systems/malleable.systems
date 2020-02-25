@@ -12,13 +12,13 @@ postscript:
 
 ## Community
 
-The Malleable Systems Lab is a community space that [catalogs][catalog], builds,
-and experiments with **malleable software and systems** that reset the balance
-of power via several essential principles detailed below.
+The Malleable Systems Collective is a community space that [catalogs][catalog],
+builds, and experiments with **malleable software and systems** that reset the
+balance of power via several essential principles detailed below.
 
 For all of these principles, it is not yet clear how to best achieve them, and
 there are sure to be many possible solutions with different tradeoffs. We'll
-need to experiment as community with various approaches. The lab's
+need to experiment as community with various approaches. The collective's
 primary goal is to report on such efforts and raise awareness of work in these
 directions.
 
