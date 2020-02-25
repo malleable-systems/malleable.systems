@@ -49,5 +49,5 @@ We hope you'll join the fight to save us all from [digital serfdom][revolution].
 [mission]: {{< relref "/pages/mission.md">}}
 [catalog]: {{< relref "/catalog/_index.md">}}
 [feedback]: mailto:hello@malleable.systems
-[garage]: https://twitter.com/andy_matuschak/status/1202688789153345536
+[garage]: https://notes.andymatuschak.org/Work_with_the_garage_door_up
 [revolution]: {{< relref "/catalog/_index.md#revolution">}}
