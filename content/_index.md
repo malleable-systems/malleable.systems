@@ -10,9 +10,8 @@ Modern computing is far too rigid. Applications can only function in preset ways
 determined by some far away team. Software is trapped in hermetically sealed
 silos and is rewritten many times over rather than recomposed.
 
-This community [catalogs][catalog], builds, and experiments with **malleable
-software and systems** that reset the balance of power via several essential
-principles:
+This community [catalogs][catalog] and experiments with **malleable software and
+systems** that reset the balance of power via several essential principles:
 
 1. Software must be as [**easy to change**][mission-1] as it is to use it
 2. All layers, from the user interface through functionality to the data within,

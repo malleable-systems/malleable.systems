@@ -12,9 +12,9 @@ postscript:
 
 ## Community
 
-The Malleable Systems Collective is a community space that [catalogs][catalog],
-builds, and experiments with **malleable software and systems** that reset the
-balance of power via several essential principles detailed below.
+The Malleable Systems Collective is a community space that [catalogs][catalog]
+and experiments with **malleable software and systems** that reset the balance
+of power via several essential principles detailed below.
 
 For all of these principles, it is not yet clear how to best achieve them, and
 there are sure to be many possible solutions with different tradeoffs. We'll
