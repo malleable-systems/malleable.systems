@@ -7,3 +7,8 @@ HUGO_VERSION = "0.65.2"
 
 [context.production.environment]
 HUGO_ENV = "production"
+
+[[redirects]]
+from = "/favicon.ico"
+to = "/meta/favicon.ico"
+status = 200
