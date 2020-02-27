@@ -5,21 +5,21 @@
 {{ define "main" }}
   <article class="cf ph3 ph5-l pv3 pv4-l f4 center mw7 lh-copy mid-gray">
     {{ .Content }}
-    <div class="flex flex-column flex-row-ns">
+    <div class="flex flex-column items-start flex-row-l">
       {{/* TODO: Should this go to a fixed about page, or a blog post...? */}}
       <a href="{{ relref . "/pages/mission.md" }}"
         class="f5 no-underline black hover-bg-mid-gray hover-white
-               inline-flex items-center pa2 ba border-box b--mid-gray mb3 mb0-ns mr4-ns">
+               pa2 ba br2 border-box b--mid-gray mb3 mb0-l mr4-l">
         More about the mission
       </a>
       <a href="{{ relref . "/catalog/_index.md" }}"
         class="f5 no-underline black hover-bg-mid-gray hover-white
-               inline-flex items-center pa2 ba border-box b--mid-gray mb3 mb0-ns mr4-ns">
+               pa2 ba br2 border-box b--mid-gray mb3 mb0-l mr4-l">
         Explore the catalog
       </a>
       <a href="{{ relref . "/pages/participate.md" }}"
         class="f5 no-underline black hover-bg-mid-gray hover-white
-               inline-flex items-center pa2 ba border-box b--mid-gray mb3 mb0-ns mr4-ns">
+               pa2 ba br2 border-box b--mid-gray mb3 mb0-l mr4-l">
         Get involved
       </a>
     </div>
