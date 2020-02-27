@@ -12,3 +12,8 @@ HUGO_ENV = "production"
 from = "/favicon.ico"
 to = "/meta/favicon.ico"
 status = 200
+
+[[redirects]]
+from = "/browserconfig.xml"
+to = "/meta/browserconfig.xml"
+status = 200
