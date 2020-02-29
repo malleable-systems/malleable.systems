@@ -5,6 +5,7 @@ author: "[J. Ryan Stinnett](https://convolv.es)"
 authorAvatar: jryans
 tags:
   - Review
+  - Paper
 featured_image:
 description:
 summary:
