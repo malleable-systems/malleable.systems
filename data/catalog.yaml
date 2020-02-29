@@ -149,11 +149,12 @@ works:
     year: 2009
     location: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
     quotes:
-      - "Conventional tools yield expensive and inﬂexible software. ... I propose
-        that a solution must radically separate the concern of integration in
-        software: ﬁrstly by using novel tools specialised towards integration
-        (the “**integration domain**”), and secondly by prohibiting use of
-        preexisting interfaces (“interface hiding”) outside that domain."
+      - "Conventional tools yield expensive and inflexible software. ... I
+        propose that a solution must radically separate the concern of
+        integration in software: firstly by using novel tools specialised
+        towards integration (the “**integration domain**”), and secondly by
+        prohibiting use of preexisting interfaces (“interface hiding”) outside
+        that domain."
       - "Placing high-level tool support for integration and adaptation close to
         the user, for example within web application mashup platforms and
         browser extensions has already led to added-value innovations which
@@ -248,8 +249,8 @@ works:
         application software can also be (collaboratively) manipulated, opening
         the way to novel possibilities for combining content, computation and
         interaction. Webstrates can be composed by embedding one webstrate
-        within another, a process called transclusion, that lets users
-        truly share, rather than copy, content."
+        within another, a process called transclusion [Nelson 1995], that lets
+        users truly share, rather than copy, content."
   wildcard:
     kind: paper
     authors:
