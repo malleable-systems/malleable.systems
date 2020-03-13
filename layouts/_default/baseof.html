@@ -40,9 +40,9 @@
     {{ end }}
 
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
-    {{- template "_internal/opengraph.html" . -}}
-    {{- template "_internal/schema.html" . -}}
-    {{- template "_internal/twitter_cards.html" . -}}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/schema.html" . }}
+    {{ partial "twitter-cards.html" . }}
   </head>
 
   <body class="ma0 h-100 flex flex-column {{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
