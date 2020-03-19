@@ -28,16 +28,18 @@
         {{ range $key, $val := .Site.Data.catalog.works }}
         <li id="{{ $key }}" class="mv2 cf">
           <a href="#{{ $key }}" class="no-underline">
-            {{ if eq .kind "paper"}}
-            <i class="fa fa-file fa-fw" title="Paper"></i>
-            {{ else if eq .kind "library"}}
-            <i class="fa fa-gears fa-fw" title="Library"></i>
-            {{ else if eq .kind "thesis"}}
-            <i class="fa fa-graduation-cap fa-fw" title="Thesis"></i>
-            {{ else if eq .kind "tweet"}}
+            {{ if eq .kind "tweet"}}
             <i class="fa fa-twitter fa-fw" title="Tweet"></i>
             {{ else if eq .kind "post"}}
             <i class="fa fa-newspaper-o fa-fw" title="Post"></i>
+            {{ else if eq .kind "paper"}}
+            <i class="fa fa-file fa-fw" title="Paper"></i>
+            {{ else if eq .kind "thesis"}}
+            <i class="fa fa-graduation-cap fa-fw" title="Thesis"></i>
+            {{ else if eq .kind "library"}}
+            <i class="fa fa-gears fa-fw" title="Library"></i>
+            {{ else if eq .kind "tool"}}
+            <i class="fa fa-bicycle fa-fw" title="Tool"></i>
             {{ end }}
           </a>
           <span>
