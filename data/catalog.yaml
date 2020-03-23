@@ -299,4 +299,30 @@ works:
         ideas, and all the code was open for tweaking. — _Tim Oren, [A Eulogy
         for HyperCard](https://due-diligence.typepad.com/blog/2004/03/a_eulogy_for_hy.html)
         (2004)_"
-
+  emacs:
+    kind: tool
+    authors:
+      - Richard Stallman
+      - many contributors
+    year: 1976-2020
+    location: https://www.gnu.org/software/emacs/
+    title:
+      "GNU Emacs"
+    image: /works/emacs.png
+    quotes:
+      - "Extensible means that you can go beyond simple customization
+         and create entirely new commands. New commands are simply
+         programs written in the Lisp language, which are run by
+         Emacs's own Lisp interpreter. Existing commands can even be
+         redefined in the middle of an editing session, without having
+         to restart Emacs. Most of the editing commands in Emacs are
+         written in Lisp; the few exceptions could have been written
+         in Lisp but use C instead for efficiency. - [GNU Emacs manual,
+         Introduction](https://www.gnu.org/software/emacs/manual/html_node/emacs/Intro.html#Intro)_"
+      - "Org can be used as a TODO lists manager and as a planner.
+         Org is a great plain-text table editor.
+         Org is an authoring and publication tool.
+         Org makes literate programming a handy and natural way to deal with code.
+         [Org mode feature list](https://orgmode.org/features.html)_"
+      - "This appendix covers some areas where users can extend the functionality of Org.
+         [Org mode manual, Appendix A Hacking](https://www.gnu.org/software/emacs/manual/html_mono/org.html#Hacking)_"
