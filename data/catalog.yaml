@@ -303,8 +303,8 @@ works:
     kind: tool
     authors:
       - Richard Stallman
-      - many contributors
-    year: 1976-2020
+      - "[contributors](https://www.gnu.org/software/emacs/manual/html_node/emacs/Acknowledgments.html)"
+    year: 1976 — present
     location: https://www.gnu.org/software/emacs/
     title:
       "GNU Emacs"
@@ -317,12 +317,12 @@ works:
          redefined in the middle of an editing session, without having
          to restart Emacs. Most of the editing commands in Emacs are
          written in Lisp; the few exceptions could have been written
-         in Lisp but use C instead for efficiency. - [GNU Emacs manual,
+         in Lisp but use C instead for efficiency. — _[GNU Emacs manual,
          Introduction](https://www.gnu.org/software/emacs/manual/html_node/emacs/Intro.html#Intro)_"
       - "Org can be used as a TODO lists manager and as a planner.
          Org is a great plain-text table editor.
          Org is an authoring and publication tool.
          Org makes literate programming a handy and natural way to deal with code.
-         [Org mode feature list](https://orgmode.org/features.html)_"
+         — _[Org mode feature list](https://orgmode.org/features.html)_"
       - "This appendix covers some areas where users can extend the functionality of Org.
-         [Org mode manual, Appendix A Hacking](https://www.gnu.org/software/emacs/manual/html_mono/org.html#Hacking)_"
+         — _[Org mode manual, Appendix A Hacking](https://www.gnu.org/software/emacs/manual/html_mono/org.html#Hacking)_"

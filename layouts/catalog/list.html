@@ -50,14 +50,14 @@
               <span class="author">
                 <a href="#{{ . }}">{{ $author.name }}</a> ({{ .type }})</span>
               {{ else }}
-              <span class="author">{{ . }}</span>
+              <span class="author">{{ . | markdownify }}</span>
               {{ end }}
             {{ else }}
               {{ $author := index $.Site.Data.catalog.actors . }}
               {{ if $author }}
               <span class="author"><a href="#{{ . }}">{{ $author.name }}</a></span>
               {{ else }}
-              <span class="author">{{ . }}</span>
+              <span class="author">{{ . | markdownify }}</span>
               {{ end }}
             {{ end }}
           {{ end }}
