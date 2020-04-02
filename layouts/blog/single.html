@@ -5,8 +5,10 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3 ph4-ns">
+    {{ $hasAside := or (.Params.toc) (.Site.RegularPages.Related .)}}
 
-    <header class="mt4 w-100 pr4-l w-two-thirds-l">
+    <header class="mt4 w-100 w-two-thirds-l
+                   {{ if $hasAside }} pr4-l{{ else }} center{{ end }}">
       <h1 class="f1 mb1">
         {{- .Title -}}
       </h1>
@@ -38,7 +40,8 @@
       {{ end }}
     </header>
 
-    <section class="lh-copy f5 nested-img mid-gray pr4-l w-two-thirds-l">
+    <section class="lh-copy f5 nested-img mid-gray w-two-thirds-l
+                    {{ if $hasAside }} pr4-l{{ else }} center{{ end }}">
       {{- .Content -}}
       <hr/>
       <div class="tr f5 mv1">
@@ -55,9 +58,11 @@
       </div>
     </section>
 
+    {{ if $hasAside }}
     <aside class="w-third-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+    {{ end }}
 
   </article>
 {{ end }}
