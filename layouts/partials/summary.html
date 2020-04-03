@@ -6,6 +6,15 @@
           {{ .Title }}
         </a>
       </h1>
+      {{ if .Params.author }}
+      <p class="f6 mh3-l flex items-center tracked">
+        By
+        {{ with .Params.authorAvatar }}
+        <img class="w2 br-100 mh2 ba" src="/avatars/{{ . }}.jpg" alt="avatar" />
+        {{ end }}
+        {{ .Params.author | markdownify }}
+      </p>
+      {{ end }}
       {{ if .Date }}
       <time class="f6 mv1 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{- .Date.Format "2006-01-02" -}}
