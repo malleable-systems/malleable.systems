@@ -68,6 +68,10 @@ works:
     year: 2019
     description:
       "In publication."
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "The contemporary landscape of interactive software operates as a
         “designer-knows-best” model that gives users very few opportunities to
@@ -86,6 +90,10 @@ works:
       "Browser extensions are underrated: the promise of hackable software"
     year: 2019
     location: https://www.geoffreylitt.com/2019/07/29/browser-extensions.html
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Among major software platforms today, browser extensions are the rare
         exception that allow and encourage users to modify the apps that we use,
@@ -104,6 +112,10 @@ works:
       "End-user programming"
     year: 2019
     location: https://www.inkandswitch.com/end-user-programming.html
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Desktop programs, web apps, and smartphone apps are to various degrees
         like appliances with a hermetic seal to keep users out of their
@@ -130,6 +142,10 @@ works:
     description:
       "Meta-level run-time services for Unix processes... a.k.a. dragging Unix
       into the 1980s"
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Unix abstractions are fairly simple and fairly general, but they are
         not humane, and they invite fragmentation. By 'not humane', I mean that
@@ -148,6 +164,10 @@ works:
       software construction"
     year: 2009
     location: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Conventional tools yield expensive and inflexible software. ... I
         propose that a solution must radically separate the concern of
@@ -168,6 +188,10 @@ works:
       Software as a “place”
     year: 2019
     location: https://twitter.com/yoshikischmitz/status/1208625526966902784
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "What makes a piece of software a “place” vs a “tool” or an “appliance”?
         ... I think some notion of **limitlessness and nesting** are necessary.
@@ -186,6 +210,10 @@ works:
       "What Lies in the Path of the Revolution"
     year: 2018
     location: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "We argue that a form of “**digital serfdom**” has rapidly grown up around
         us, where various important classes of artefacts, increasingly essential
@@ -216,6 +244,10 @@ works:
       "Our conception of “computing” has changed and continues to change. This
       work identifies dimensions that constitute the “space of computing”."
     image: /works/space.png
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Currently, only those who have a programming background or resources
         have the ability to create digital artifacts. This forces the rest of
@@ -238,6 +270,10 @@ works:
     year: 2015
     location: http://www.klokmose.net/clemens/wp-content/uploads/2015/08/webstrates.pdf
     image: /works/webstrates.png
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "Webstrates offer a novel approach for creating shareable dynamic media
         that blur the distinction between documents and applications. Our vision
@@ -261,6 +297,10 @@ works:
     year: 2020
     location: https://www.geoffreylitt.com/wildcard/salon2020/
     image: /works/wildcard.png
+    suggestors:
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "In this paper, we present spreadsheet-driven customization, a technique
         that enables end users to customize software without doing any
@@ -289,6 +329,11 @@ works:
     year: 1987 — 2004
     location: https://en.wikipedia.org/wiki/HyperCard
     image: /works/hypercard.png
+    suggestors:
+      - geoffreylitt
+      - jryans
+    curators:
+      - jryans
     quotes:
       - "HyperCard is a software erector set that lets non-programmers put
         together interactive information — _Bill Atkinson, [Computer
@@ -309,6 +354,10 @@ works:
     title:
       "GNU Emacs"
     image: /works/emacs.png
+    suggestors:
+      - khinsen
+    curators:
+      - khinsen
     quotes:
       - "Extensible means that you can go beyond simple customization
          and create entirely new commands. New commands are simply
