@@ -11,19 +11,19 @@ actors:
     avatar: /avatars/eagan.jpg
     website: https://james.eagan.fr/
     twitter: dr_eagan
-  kell:
+  stephenrkell:
     name: Stephen Kell
     affiliation: University of Kent
     avatar: /avatars/stephenrkell.jpg
     website: https://www.cs.kent.ac.uk/people/staff/srk21/
     twitter: stephenrkell
-  klokmose:
+  cklokmose:
     name: Clemens N. Klokmose
     affiliation: Aarhus University
-    avatar: /avatars/klokmose.jpg
+    avatar: /avatars/cklokmose.jpg
     website: http://www.klokmose.net/clemens/
     twitter: cklokmose
-  hsu:
+  glitchyowl:
     name: Weiwei Hsu
     affiliation: California College of the Arts
     avatar: /avatars/glitchyowl.jpg
@@ -34,27 +34,27 @@ actors:
     avatar: /avatars/inkandswitch.png
     website: https://www.inkandswitch.com/
     twitter: inkandswitch
-  litt:
+  geoffreylitt:
     name: Geoffrey Litt
     affiliation: MIT
-    avatar: /avatars/litt.jpg
+    avatar: /avatars/geoffreylitt.jpg
     website: https://www.geoffreylitt.com/
     twitter: geoffreylitt
-  schmitz:
+  yoshikischmitz:
     name: Yoshiki Schmitz
-    avatar: /avatars/yoshiki.jpg
+    avatar: /avatars/yoshikischmitz.jpg
     website: https://yschmitz.com/
     twitter: yoshikischmitz
-  stinnett:
+  jryans:
     name: J. Ryan Stinnett
     role: Collective organiser
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
     twitter: jryans
-  tchernavskij:
+  ptchernavskij:
     name: Philip Tchernavskij
     affiliation: OCAD University
-    avatar: /avatars/ptcher.jpg
+    avatar: /avatars/ptchernavskij.jpg
     website: https://tcher.tech/
     twitter: ptchernavskij
 
@@ -62,7 +62,7 @@ works:
   malleable:
     kind: thesis
     authors:
-      - tchernavskij
+      - ptchernavskij
     title:
       "Designing and Programming Malleable Software"
     year: 2019
@@ -81,7 +81,7 @@ works:
   browserextensions:
     kind: post
     authors:
-      - litt
+      - geoffreylitt
     title:
       "Browser extensions are underrated: the promise of hackable software"
     year: 2019
@@ -119,9 +119,9 @@ works:
   liballocs:
     kind: library
     authors:
-      - name: kell
+      - name: stephenrkell
         type: owner
-      - name: stinnett
+      - name: jryans
         type: contributor
     title:
       liballocs
@@ -142,7 +142,7 @@ works:
   mythical:
     kind: paper
     authors:
-      - kell
+      - stephenrkell
     title:
       "The mythical matched modules: overcoming the tyranny of inflexible
       software construction"
@@ -163,7 +163,7 @@ works:
   place:
     kind: tweet
     authors:
-      - schmitz
+      - yoshikischmitz
     title:
       Software as a “place”
     year: 2019
@@ -181,7 +181,7 @@ works:
     kind: paper
     authors:
       - basman
-      - tchernavskij
+      - ptchernavskij
     title:
       "What Lies in the Path of the Revolution"
     year: 2018
@@ -207,7 +207,7 @@ works:
   space:
     kind: thesis
     authors:
-      - hsu
+      - glitchyowl
     title:
       "The “Space” of Computing"
     year: 2018
@@ -228,7 +228,7 @@ works:
   webstrates:
     kind: paper
     authors:
-      - klokmose
+      - cklokmose
       - eagan
       - Siemen Baader
       - Wendy Mackay
@@ -254,7 +254,7 @@ works:
   wildcard:
     kind: paper
     authors:
-      - litt
+      - geoffreylitt
       - Daniel Jackson
     title:
       "Wildcard: Spreadsheet-Driven Customization of Web Applications"
