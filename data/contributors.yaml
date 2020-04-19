@@ -1,0 +1,24 @@
+contributors:
+  khinsen:
+    name: Konrad Hinsen
+    avatar: /avatars/khinsen.jpg
+    website: https://khinsen.net/
+    twitter: khinsen
+  klokmose:
+    name: Clemens N. Klokmose
+    affiliation: Aarhus University
+    avatar: /avatars/klokmose.jpg
+    website: http://www.klokmose.net/clemens/
+    twitter: cklokmose
+  litt:
+    name: Geoffrey Litt
+    affiliation: MIT
+    avatar: /avatars/litt.jpg
+    website: https://www.geoffreylitt.com/
+    twitter: geoffreylitt
+  stinnett:
+    name: J. Ryan Stinnett
+    role: Collective organiser
+    avatar: /avatars/jryans.jpg
+    website: https://convolv.es
+    twitter: jryans
