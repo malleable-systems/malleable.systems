@@ -9,11 +9,16 @@ HUGO_VERSION = "0.65.2"
 HUGO_ENV = "production"
 
 [[redirects]]
-from = "/favicon.ico"
-to = "/meta/favicon.ico"
+from = "/apple-touch-icon.png"
+to = "/meta/apple-touch-icon.png"
 status = 200
 
 [[redirects]]
 from = "/browserconfig.xml"
 to = "/meta/browserconfig.xml"
+status = 200
+
+[[redirects]]
+from = "/favicon.ico"
+to = "/meta/favicon.ico"
 status = 200
