@@ -71,7 +71,7 @@
           {{ end }}
           {{ with .year }}<span>{{ . }}</span>.{{ end }}
           <div class="pl4">
-            {{ with .description }}<div>{{ . }}</div>{{ end }}
+            {{ with .description }}<div>{{ . | markdownify }}</div>{{ end }}
             {{ with .image }}
             <a href="{{ . }}" target="_blank" rel="noopener">
               <img class="db mw5 fr-ns ml1-ns mb1-ns" src="{{ . }}" />

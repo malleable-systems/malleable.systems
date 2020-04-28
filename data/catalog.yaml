@@ -415,3 +415,29 @@ works:
         small-grain improvements can easily 'diffuse' throughout the user
         community is a powerful principle for supporting user-driven evolution
         of systems."
+  gtoolkit:
+    kind: tool
+    authors:
+      - Tudor Gîrba
+      - "[contributors](https://github.com/feenkcom/gtoolkit/graphs/contributors)"
+    title:
+      "Glamorous Toolkit"
+    year: 2017 — present
+    location: https://gtoolkit.com/
+    suggestors:
+      - jryans
+    curators:
+      - jryans
+    description:
+      "A live notebook, code editor, data visualisation engine, and more. Based
+      on [Pharo](https://pharo.org/), a modern successor of Smalltalk."
+    image: /works/gtoolkit.png
+    quotes:
+      - "We want the environment to fit the context of the current system and
+        when it does not, we want to be able to mold it live. This seemingly
+        small change is transformational and can be utilized in many ways."
+      - " Whatever is shown on the screen is rendered in one single rendering
+        tree. No canvas in between. That means that all layouts are regular
+        layouts, including the graph layouts and text-editor layouts. That means
+        that text is made of regular elements. And that means that all elements
+        can be combinable without imposing a technical limit."
