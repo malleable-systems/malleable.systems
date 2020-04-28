@@ -436,7 +436,7 @@ works:
       - "We want the environment to fit the context of the current system and
         when it does not, we want to be able to mold it live. This seemingly
         small change is transformational and can be utilized in many ways."
-      - " Whatever is shown on the screen is rendered in one single rendering
+      - "Whatever is shown on the screen is rendered in one single rendering
         tree. No canvas in between. That means that all layouts are regular
         layouts, including the graph layouts and text-editor layouts. That means
         that text is made of regular elements. And that means that all elements
