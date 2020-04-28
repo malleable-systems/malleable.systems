@@ -441,3 +441,34 @@ works:
         layouts, including the graph layouts and text-editor layouts. That means
         that text is made of regular elements. And that means that all elements
         can be combinable without imposing a technical limit."
+  smalltalk:
+    kind: tool
+    authors:
+      - Alan Kay
+      - Dan Ingalls
+      - Adele Goldberg
+      - Learning Research Group of Xerox PARC
+    title: "Smalltalk"
+    year: 1972 — present
+    location: https://en.wikipedia.org/wiki/Smalltalk
+    suggestors:
+      - geoffreylitt
+      - jryans
+    curators:
+      - jryans
+    description:
+      "A programming language and in-context development environment with
+      powerful built-in tools like a class browser, object inspector, and
+      debugger."
+    quotes:
+      - "The message is the most fundamental language construct in Smalltalk.
+        Even control structures are implemented as message sends. —
+        [Wikipedia](https://en.wikipedia.org/wiki/Smalltalk)"
+      - "The late-bound, message-based interfaces of objects provide strong
+        interposability properties: clients remain oblivious of the speciﬁc
+        implementation they are talking to. In turn, this simpliﬁes the
+        customisation, extension or replacement of parts of a system, all of
+        which can be rendered as interposition of a different object on the same
+        client. — _Stephen Kell, [The operating system: should there be
+        one?](https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell13operating.pdf)
+        (2013)_"
