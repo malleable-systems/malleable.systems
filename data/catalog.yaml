@@ -500,3 +500,35 @@ works:
         People make what they need for themselves. They learn through immersion.
         The true power of the dynamic medium — programmability — is for
         everyone."
+  boxer:
+    kind: paper
+    authors:
+      - Andrea A. diSessa
+      - Harold Abelson
+    title: "Boxer: a reconstructible computational medium"
+    year: 1986
+    location: https://dl.acm.org/doi/abs/10.1145/6592.6595
+    image: /works/boxer.png
+    suggestors:
+      - geoffreylitt
+      - cklokmose
+    curators:
+      - jryans
+    quotes:
+      - "One major benefit of programmability is that even professionally
+        produced items become changeable, adaptable, fragmentable, and quotable
+        in ways that present software is not."
+      - "... a reconstructible medium should allow people to build personalized
+        computational tools and easily modify tools they have gotten from
+        others. This concept is in strong contrast to the current situation in
+        applications software — professionals are designing tools only for large
+        populations with a common need."
+      - "Boxer challenges, in a small way, the current view of programming
+        languages. More significantly, it challenges the current view of what
+        programming might be like, and for whom and for what purposes
+        programming languages should be created. We have argued that some
+        computer languages should be designed for laypeople, and have presented
+        an image of how computation could be used as the basis for a popular,
+        expressive, and reconstructible medium. Computers will become
+        substantially more powerful instruments of educational and social change
+        to the extent that such an image can be realized."
