@@ -418,8 +418,7 @@ works:
   gtoolkit:
     kind: tool
     authors:
-      - Tudor Gîrba
-      - "[contributors](https://github.com/feenkcom/gtoolkit/graphs/contributors)"
+      - "[feenk](https://feenk.com/)"
     title:
       "Glamorous Toolkit"
     year: 2017 — present
