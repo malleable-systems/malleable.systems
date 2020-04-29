@@ -428,10 +428,14 @@ works:
     curators:
       - jryans
     description:
-      "A live notebook, code editor, data visualisation engine, and more. Based
-      on [Pharo](https://pharo.org/), a modern successor of Smalltalk."
+      "A development environment built on top of [Pharo](https://pharo.org/), a modern successor of
+      [Smalltalk](#smalltalk)."
     image: /works/gtoolkit.png
     quotes:
+      - "Glamorous Toolkit is the moldable development environment. It is a live
+        notebook. It is a flexible search interface. It is a fancy code editor. It
+        is a software analysis platform. It is a data visualization engine. All in
+        one. And it is free and open-source under an MIT license."
       - "We want the environment to fit the context of the current system and
         when it does not, we want to be able to mold it live. This seemingly
         small change is transformational and can be utilized in many ways."
