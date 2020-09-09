@@ -8,8 +8,6 @@ params:
   description:
     "The Malleable Systems Collective catalogs and experiments with malleable
     software and systems that reset the balance of power in computing"
-  images:
-    - /meta/apple-touch-icon.png
   custom_css:
     - css/forkawesome/fork-awesome.css
     - css/custom.css
