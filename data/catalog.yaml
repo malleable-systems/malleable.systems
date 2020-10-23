@@ -535,3 +535,22 @@ works:
         expressive, and reconstructible medium. Computers will become
         substantially more powerful instruments of educational and social change
         to the extent that such an image can be realized."
+  futureofprogramming:
+    kind: post
+    authors:
+      - Stefan Lesser
+    title: "A Future Of Programming"
+    year: 2019
+    location: https://stefan-lesser.com/2019/12/24/a-future-of-programming/
+    suggestors:
+      - jryans
+    curators:
+      - 7h3kk1d
+    quotes:
+      - "Enable everyone, especially people from other domains outside
+        programming, to take advantage of computation. Empower people to build
+        their own systems and tools, giving them more of the powers that have
+        only been available to programmers through writing code, so they can
+        augment their own workflows in their own areas of expertise."
+      - "Blur the line between developers and users. Enable people to modify the
+        systems and tools they use and adapt them to their needs."
