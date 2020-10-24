@@ -43,7 +43,7 @@ achieve that, please let us know.
 
 [mission]: {{< relref "/pages/mission.md">}}
 [catalog]: {{< relref "/catalog/_index.md">}}
-[contribute]: https://github.com/malleable-systems/malleable.systems/blob/master/data/catalog.yaml
+[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/data/catalog.yaml
 [feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org

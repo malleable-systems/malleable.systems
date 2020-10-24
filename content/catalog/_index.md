@@ -19,5 +19,5 @@ let us know about anything that should be removed or corrected.
 _Order in the catalog is randomised on each page load._
 
 [principles]: {{< relref "/pages/mission.md">}}
-[contribute]: https://github.com/malleable-systems/malleable.systems/blob/master/data/catalog.yaml
+[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/data/catalog.yaml
 [feedback]: mailto:hello@malleable.systems
