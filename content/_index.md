@@ -41,7 +41,7 @@ experiments from yourself and others. You can follow the community on
 also available via our [newsletter][newsletter].
 
 [catalog]: {{< relref "/catalog/_index.md" >}}
-[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/data/catalog.yaml
+[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
 [feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org

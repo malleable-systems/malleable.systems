@@ -35,6 +35,9 @@ Along with the blog, we've also started a [catalog][catalog] of projects,
 people, discussions, and other efforts in this field. We hope it can grow to
 become a comprehensive list of resources for the community.
 
+For more info on contributing to the collective, please see the [contribution
+guide][contribute].
+
 ### Feedback
 
 At the end of the day, we want this to be a space for anyone working to advance
@@ -43,7 +46,7 @@ achieve that, please let us know.
 
 [mission]: {{< relref "/pages/mission.md">}}
 [catalog]: {{< relref "/catalog/_index.md">}}
-[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/data/catalog.yaml
+[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
 [feedback]: mailto:hello@malleable.systems
 [twitter]: https://twitter.com/malleablesys
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org
