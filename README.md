@@ -13,4 +13,4 @@ If you know of people, projects, threads, or anything else that should be added 
 [site]: https://malleable.systems
 [catalog]: https://malleable.systems/catalog/
 [note]: mailto:hello@malleable.systems
-[data]: https://github.com/malleable-systems/malleable.systems/blob/main/data/catalog.yaml
+[data]: data/catalog.yaml
