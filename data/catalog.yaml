@@ -560,8 +560,9 @@ works:
       - Benjamin B. Bederson
       - James D. Hollan
     title: "Pad++: a zooming graphical interface for exploring alternate interface physics"
+    description: "A zoomable graphical sketchpad. Documentation and more information can be found [here](https://www.cs.umd.edu/hcil/pad++/)."
     year: 1994
-    location: https://dl.acm.org/doi/10.1145/192426.192435
+    location: http://www.cs.umd.edu/hcil/pad%2B%2B/papers/uist-94-pad/uist-94-pad.pdf
     suggestors:
       - cklokmose
     curators:
