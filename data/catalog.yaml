@@ -66,8 +66,7 @@ works:
     title:
       "Designing and Programming Malleable Software"
     year: 2019
-    description:
-      "In publication."
+    location: https://tcher.tech/publications/PhilipTchernavskij_PhDThesis.pdf
     suggestors:
       - jryans
     curators:
