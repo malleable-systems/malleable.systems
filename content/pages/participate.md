@@ -20,6 +20,9 @@ We have various ways to share and discuss work from the community:
 * Subscribe to the [newsletter][newsletter] if you prefer to receive the blog
   content via email
 
+The [Matrix room][matrix] currently has the most activity, so we encourage you
+to give that a try.
+
 ### Contribute
 
 We'd like to host several kinds of posts from different voices in the community.
