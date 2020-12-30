@@ -86,7 +86,7 @@ efforts here, and perhaps that will encourage others to do the same.
 2020 was quite a draining year, and I found it hard to have energy for new
 efforts. I imagine many people may have gone through something similar. I've got
 big plans for 2021, and I bet many of you do as well. I hope the world state
-will allow us all to follow thorough on our dreams of malleability in the new
+will allow us all to follow through on our dreams of malleability in the new
 year.
 
 [catalog]: {{< relref "/catalog/_index.md" >}}
