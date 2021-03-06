@@ -607,3 +607,21 @@ works:
         quasi-spiritual notions of our evolved bond with the planet, also seem
         essential if there is to be hope of steering humans away from collective
         destruction."
+  byoc:
+    kind: post
+    authors:
+      - geoffreylitt
+    title: "Bring Your Own Client"
+    year: 2021
+    location: https://www.geoffreylitt.com/2021/03/05/bring-your-own-client.html
+    suggestors:
+      - karlicoss
+      - 7h3kk1d
+      - jryans
+    curators:
+      - jryans
+    quotes:
+      - "Today we generally think about BYOC at the “app” level. But can we go
+        finer-grained than that, picking individual interface elements? Instead
+        of needing to pick a single email client, can I compose my favorite
+        email client out of an inbox, a compose window, and a spam filter?"
