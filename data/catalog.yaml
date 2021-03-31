@@ -625,3 +625,40 @@ works:
         finer-grained than that, picking individual interface elements? Instead
         of needing to pick a single email client, can I compose my favorite
         email client out of an inbox, a compose window, and a spam filter?"
+  worldwithoutapps:
+    kind: video
+    authors:
+      - Michel Beaudouin-Lafon
+    title: "A World Without Apps"
+    year: 2019
+    location: https://www.youtube.com/watch?v=ntaudUum06E
+    image: /works/worldwithoutapps.jpg
+    suggestors:
+      - jryans
+    curators:
+      - jryans
+    quotes:
+      - "...with apps today, you are given full, complex software where you
+        don't have a choice. You have to have all of it or none of it, and you
+        have to learn it, and you have relearn it at each update, and you have
+        learn a different version when you shift from one vendor to another.
+        (7:35)"
+      - "...the key idea here is to make tools more generic, general, and
+        independent of the environment in which they are going to be used.
+        (12:50)"
+      - "I often think about this [Samuel Johnson] quote from my late
+        stepfather's desk: 'Nothing will ever be attempted if all possible
+        objections must first be overcome.' (20:51)"
+      - "I also strongly believe that users should have a bit more control over
+        security and the risks they are willing to take. We learn by doing, we
+        learn by failing, we learn by doing mistakes, we learn by breaking
+        things. And sometimes I want a secure environment and sometimes I want
+        to see what happens if I put my fingers in the plug. (21:17)"
+      - "I don't think it is incompatible to have more flexible environments and
+        security. What I'm advocating for is the ability for people to make
+        choices. (23:24)"
+      - "I do not believe that this type of change will come from the companies
+        that dominate computing at the moment, in the same way that GUIs didn't
+        come out of IBM at the time. (30:43)"
+      - "My take is not to try to directly address the wider audience, but to
+        try with niche markets. (31:20)"
