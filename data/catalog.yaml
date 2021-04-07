@@ -662,3 +662,47 @@ works:
         come out of IBM at the time. (30:43)"
       - "My take is not to try to directly address the wider audience, but to
         try with niche markets. (31:20)"
+  softwareappstypetheory:
+    kind: post
+    authors:
+      - Paul Chiusano
+    title: "The future of software, the end of apps, and why UX designers should care about type theory"
+    year: 2013
+    location: https://pchiusano.github.io/2013-05-22/future-of-software.html
+    suggestors:
+      - computably
+      - jryans
+    curators:
+      - jryans
+    quotes:
+      - "**Software is now organized into static machines called
+        *applications***. These applications (“appliances” is a better word)
+        come equipped with a fixed vocabulary of actions, speak no common
+        language, and [cannot be extended, composed, or
+        combined](http://www.youtube.com/watch?v=faJ8N0giqzw) with other
+        applications except with enormous friction."
+      - "Applications can and ultimately should be replaced by *programming
+        environments*, explicitly recognized as such, in which the user
+        interactively creates, executes, inspects and *composes* programs."
+      - "Applications are failing at even their stated goal, but they do worse
+        than that. Yes, an application is an (often terrible) interface to some
+        library of functions, but it also traps this wonderful collection of
+        potential building blocks in a mess of bureaucratic red tape."
+      - "No one piece of software ‘does it all’, and so individuals and
+        businesses looking to automate or partially automate various tasks are
+        often put in the position of having to integrate functionality across
+        multiple applications, which is often painful or flat out impossible.
+        The amount of lost productivity (or lost leisure time) on a global
+        scale, both for individuals and business, is absolutely staggering."
+      - "As a civilization, we would be better off if software could be
+        developed by small, unrelated groups, with an open standard that allowed
+        for these groups to trivially combine functionality produced anywhere on
+        the network."
+      - "The problem is, I don’t want a machine, I want a toolkit, and Google
+        keeps trying to sell me machines. Perhaps these machines are exquisitely
+        crafted, with extensive tuning and so forth, but a machine with a fixed
+        set of actions can never do all the things that *I* can imagine might be
+        useful, and I *don’t* want to wait around for Google to implement the
+        functionality I desire as another awkward one-off ‘feature’ that’s
+        poorly integrated and just adds more complexity to an already bloated
+        application."
