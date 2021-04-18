@@ -32,6 +32,12 @@ Examples of unacceptable behavior include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
+The three gates of speech are useful as guide: before you speak, let your words pass through three gates:
+
+* At the first gate, ask yourself, is it true
+* At the second gate ask, is it necessary
+* At the third gate ask, is it kind
+
 ## Enforcement Responsibilities
 
 Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
@@ -85,6 +91,9 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
+
+The three gates of speech section is borrowed from Merveilles's [discourse
+guide](https://wiki.xxiivv.com/site/discourse.html).
 
 [homepage]: https://www.contributor-covenant.org
 
