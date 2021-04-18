@@ -1,5 +1,6 @@
 ---
 recent_copy: Recent Posts
+all_copy: See all posts
 ---
 
 > The user wants open software, software that can be modified, and that can
