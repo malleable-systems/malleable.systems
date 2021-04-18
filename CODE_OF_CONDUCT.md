@@ -29,9 +29,9 @@ Examples of unacceptable behavior include:
 
 The three gates of speech are useful as guide: before you speak, let your words pass through three gates:
 
-* At the first gate, ask yourself, is it true
-* At the second gate ask, is it necessary
-* At the third gate ask, is it kind
+* At the first gate, ask yourself, "is it true?"
+* At the second gate, ask "is it necessary?"
+* At the third gate, ask "is it kind?"
 
 ## Enforcement Responsibilities
 
