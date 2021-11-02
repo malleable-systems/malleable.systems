@@ -706,3 +706,28 @@ works:
         functionality I desire as another awkward one-off ‘feature’ that’s
         poorly integrated and just adds more complexity to an already bloated
         application."
+  homecookedmeal:
+    kind: post
+    authors:
+      - Robin Sloan
+    title: "An app can be a home-cooked meal"
+    year: 2020
+    location: https://www.robinsloan.com/notes/home-cooked-app/
+    suggestors:
+      - jryans
+    curators:
+      - akkartik
+    quotes:
+      - "I made a messaging app for, and with, my family. It is ruthlessly
+        simple; we love it; no one else will ever use it."
+      - "In a better world, I would have built this in a day using some kind
+        of modern, flexible HyperCard for iOS, exporting a sturdy, standalone
+        app that did exactly what I wanted and nothing else."
+      - "People don’t only learn to cook so they can become chefs. Some do!
+        But far more people learn to cook so they can eat better, or more
+        affordably, or in a specific way. Or because they want to carry on a
+        tradition. Sometimes they learn just because they’re bored! Or even
+        because — get this — they love spending time with the person who’s
+        teaching them... I will gently suggest that perhaps coding might be
+        entangled the same way... with our domesticity and comfort, nerdiness
+        and curiosity, health and love."
