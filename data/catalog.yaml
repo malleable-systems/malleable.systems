@@ -770,3 +770,23 @@ works:
         the tool-user can tinker with them in emerging creative projects."
       - "This conception is mostly useful in the context of repeated
         collaborations, particularly across distinct projects."
+  crochet:
+    kind: tool
+    authors:
+      - Q
+    title: "Crochet"
+    year: 2021 - Present
+    location: https://crochet.qteati.me/
+    suggestors:
+      - jryans
+      - 7h3kk1d
+    curators:
+      - 7h3kk1d
+    description:
+      "Crochet is a tool for creating and remixing interactive stories, safely"
+    quotes:
+      - "Crochet goes to great lengths to make creating, running and remixing
+        content as safe and privacy respecting as possible. Content built 
+        with Crochet can only use your computer and your data in ways you 
+        explicitly consent to---it can't change your files or send your 
+        information over the internet without your knowledge and consent."
