@@ -2,19 +2,19 @@ contributors:
   khinsen:
     name: Konrad Hinsen
     avatar: /avatars/khinsen.jpg
-    website: https://khinsen.net/
+    website: https://khinsen.net
     twitter: khinsen
   cklokmose:
     name: Clemens N. Klokmose
     affiliation: Aarhus University
     avatar: /avatars/cklokmose.jpg
-    website: http://www.klokmose.net/clemens/
+    website: https://cs.au.dk/~clemens/
     twitter: cklokmose
   geoffreylitt:
     name: Geoffrey Litt
     affiliation: MIT
     avatar: /avatars/geoffreylitt.jpg
-    website: https://www.geoffreylitt.com/
+    website: https://www.geoffreylitt.com
     twitter: geoffreylitt
   jryans:
     name: J. Ryan Stinnett
@@ -28,10 +28,12 @@ contributors:
     website: https://bandukwala.me
     twitter: abanduk
   karlicoss:
+    avatar: /avatars/karlicoss.jpg
     website: https://beepb00p.xyz
     twitter: karlicoss
   computably:
     name: Jimmy Ye
+    avatar: /avatars/computably.jpg
     website: https://rationalis.github.io
     github: rationalis
   akkartik:
