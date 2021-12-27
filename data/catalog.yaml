@@ -23,12 +23,12 @@ actors:
     avatar: /avatars/cklokmose.jpg
     website: https://cs.au.dk/~clemens/
     twitter: cklokmose
-  glitchyowl:
-    name: Weiwei Hsu
+  weiwei:
+    name: Weiwei Xu
     affiliation: California College of the Arts
-    avatar: /avatars/glitchyowl.jpg
-    website: https://weiweihsu.com
-    twitter: glitchyowl
+    avatar: /avatars/weiwei.jpg
+    website: https://weiwei.place
+    twitter: weiweiwei33
   inkandswitch:
     name: Ink & Switch
     avatar: /avatars/inkandswitch.png
@@ -234,7 +234,7 @@ works:
   space:
     kind: thesis
     authors:
-      - glitchyowl
+      - weiwei
     title:
       "The “Space” of Computing"
     year: 2018
