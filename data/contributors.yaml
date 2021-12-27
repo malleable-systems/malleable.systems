@@ -2,9 +2,9 @@ contributors:
   khinsen:
     name: Konrad Hinsen
     roles:
-      - Blog post author
-      - Catalog curator
       - Catalog suggester
+      - Catalog curator
+      - Blog post author
     avatar: /avatars/khinsen.jpg
     website: https://khinsen.net
     twitter: khinsen
@@ -28,8 +28,8 @@ contributors:
     name: J. Ryan Stinnett
     roles:
       - Collective organiser
-      - Catalog curator
       - Catalog suggester
+      - Catalog curator
       - Blog post author
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
