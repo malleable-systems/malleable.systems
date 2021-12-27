@@ -3,13 +3,13 @@ actors:
     name: Antranig Basman
     affiliation: Raising the Floor - International
     avatar: /avatars/basman.jpg
-    website: http://ponder.org.uk/
+    website: https://ponder.org.uk
     twitter: amb26ponder
   eagan:
     name: James R. Eagan
     affiliation: Télécom Paris
     avatar: /avatars/eagan.jpg
-    website: https://james.eagan.fr/
+    website: https://james.eagan.fr
     twitter: dr_eagan
   stephenrkell:
     name: Stephen Kell
@@ -21,29 +21,29 @@ actors:
     name: Clemens N. Klokmose
     affiliation: Aarhus University
     avatar: /avatars/cklokmose.jpg
-    website: http://www.klokmose.net/clemens/
+    website: https://cs.au.dk/~clemens/
     twitter: cklokmose
   glitchyowl:
     name: Weiwei Hsu
     affiliation: California College of the Arts
     avatar: /avatars/glitchyowl.jpg
-    website: https://weiweihsu.com/
+    website: https://weiweihsu.com
     twitter: glitchyowl
   inkandswitch:
     name: Ink & Switch
     avatar: /avatars/inkandswitch.png
-    website: https://www.inkandswitch.com/
+    website: https://www.inkandswitch.com
     twitter: inkandswitch
   geoffreylitt:
     name: Geoffrey Litt
     affiliation: MIT
     avatar: /avatars/geoffreylitt.jpg
-    website: https://www.geoffreylitt.com/
+    website: https://www.geoffreylitt.com
     twitter: geoffreylitt
   yoshikischmitz:
     name: Yoshiki Schmitz
     avatar: /avatars/yoshikischmitz.jpg
-    website: https://yschmitz.com/
+    website: https://www.notion.so/About-Me-7543563c194748f4a500d2c164bd3057
     twitter: yoshikischmitz
   jryans:
     name: J. Ryan Stinnett
@@ -55,7 +55,7 @@ actors:
     name: Philip Tchernavskij
     affiliation: Aarhus University
     avatar: /avatars/ptchernavskij.jpg
-    website: https://tcher.tech/
+    website: https://tcher.tech
     twitter: ptchernavskij
 
 works:
