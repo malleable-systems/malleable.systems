@@ -96,11 +96,11 @@
       </h1>
 
       <p class="mb4">
-        The Malleable Systems Collective is a virtual community where anyone can
-        participate, and so there are no members per se. The following people
-        and groups are some of the key actors in this space due to their work
-        highlighted above, which has been collated through contributions to the
-        catalog from the community.
+        The following people and groups are some of the key actors in this space
+        due to their work highlighted above, which has been curated through
+        contributions to the catalog from the community. Please note that you
+        should not assume that they have endorsed the community's actions —
+        we simply admire their work.
       </p>
 
       <ul class="shuffle grid gtc2 gtc3-l gg1 list pl0">
@@ -108,9 +108,6 @@
         <li id="{{ $key }}">
           <img class="w4 br-100 ba" src="{{ .avatar }}" />
           <h3 class="f4 mv0">{{ .name }}</h3>
-          {{ with .role }}
-          <div>{{ . }}</div>
-          {{ end }}
           {{ with .affiliation }}
           <div>{{ . }}</div>
           {{ end }}

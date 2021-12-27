@@ -1,5 +1,6 @@
 {{ define "header" }}
   {{ partial "page-header.html" . }}
+  <script src="/js/shuffle.js"></script>
 {{ end }}
 
 {{ define "main" }}
@@ -34,7 +35,7 @@
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
 
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
+    <div class="pa3 pa4-ns w-100 w-70-ns center mid-gray">
       {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
           <h1 class="flex-none">
@@ -66,4 +67,55 @@
       {{ end }}
     </div>
   {{ end }}
+
+  <div class="pa3 pa4-ns w-100 w-70-ns center mid-gray">
+    <h1 id="contributors">
+      Contributors
+    </h1>
+
+    <p class="mb4">
+      The Malleable Systems Collective is a virtual community where anyone can
+      participate. The following people have contributed to the community in
+      various ways as noted by the roles under their names.
+    </p>
+
+    <ul class="shuffle grid gtc2 gtc3-l gg1 list pl0">
+      {{ range $key, $val := .Site.Data.contributors.contributors }}
+      <li id="{{ $key }}">
+        <img class="w4 br-100 ba" src="{{ .avatar }}" />
+        <h3 class="f4 mv0">{{ .name | default $key }}</h3>
+        <div>
+          {{ with .website }}
+          <a href="{{ . }}"
+            target="_blank" rel="noopener" title="Website"
+            class="link-transition social link">
+            <i class="fa fa-home"></i>
+          </a>
+          {{ end }}
+          {{ with .twitter }}
+          <a href="https://twitter.com/{{ . }}"
+            target="_blank" rel="noopener" title="Twitter"
+            class="link-transition social link">
+            <i class="fa fa-twitter"></i>
+          </a>
+          {{ end }}
+          {{ with (.github | default $key) }}
+          <a href="https://github.com/{{ . }}"
+            target="_blank" rel="noopener" title="GitHub"
+            class="link-transition social link">
+            <i class="fa fa-github"></i>
+          </a>
+          {{ end }}
+        </div>
+        <div class="mt1">
+        {{ range .roles }}
+          <span class="ba br2 border-box b--mid-gray nowrap dib
+                       f6 pa1 mb1"
+          >{{ . }}</span>
+        {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}
