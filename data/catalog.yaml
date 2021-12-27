@@ -67,7 +67,7 @@ works:
       "Designing and Programming Malleable Software"
     year: 2019
     location: https://tcher.tech/publications/PhilipTchernavskij_PhDThesis.pdf
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -89,7 +89,7 @@ works:
       "Browser extensions are underrated: the promise of hackable software"
     year: 2019
     location: https://www.geoffreylitt.com/2019/07/29/browser-extensions.html
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -111,7 +111,7 @@ works:
       "End-user programming"
     year: 2019
     location: https://www.inkandswitch.com/end-user-programming.html
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -141,7 +141,7 @@ works:
     description:
       "Meta-level run-time services for Unix processes... a.k.a. dragging Unix
       into the 1980s"
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -163,7 +163,7 @@ works:
       software construction"
     year: 2009
     location: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell09mythical.pdf
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -187,7 +187,7 @@ works:
       Software as a “place”
     year: 2019
     location: https://twitter.com/yoshikischmitz/status/1208625526966902784
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -209,7 +209,7 @@ works:
       "What Lies in the Path of the Revolution"
     year: 2018
     location: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -243,7 +243,7 @@ works:
       "Our conception of “computing” has changed and continues to change. This
       work identifies dimensions that constitute the “space of computing”."
     image: /works/space.png
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -269,7 +269,7 @@ works:
     year: 2015
     location: http://www.klokmose.net/clemens/wp-content/uploads/2015/08/webstrates.pdf
     image: /works/webstrates.png
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -296,7 +296,7 @@ works:
     year: 2020
     location: https://www.geoffreylitt.com/wildcard/salon2020/
     image: /works/wildcard.png
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -328,7 +328,7 @@ works:
     year: 1987 — 2004
     location: https://en.wikipedia.org/wiki/HyperCard
     image: /works/hypercard.png
-    suggestors:
+    suggesters:
       - geoffreylitt
       - jryans
     curators:
@@ -353,7 +353,7 @@ works:
     year: 1976 — present
     location: https://www.gnu.org/software/emacs/
     image: /works/emacs.png
-    suggestors:
+    suggesters:
       - khinsen
     curators:
       - khinsen
@@ -386,7 +386,7 @@ works:
       "User-tailorable systems: pressing the issues with buttons"
     year: 1990
     location: https://dl.acm.org/doi/abs/10.1145/97243.97271
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -422,7 +422,7 @@ works:
       "Glamorous Toolkit"
     year: 2017 — present
     location: https://gtoolkit.com/
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -453,7 +453,7 @@ works:
     title: "Smalltalk"
     year: 1972 — present
     location: https://en.wikipedia.org/wiki/Smalltalk
-    suggestors:
+    suggesters:
       - geoffreylitt
       - jryans
     curators:
@@ -486,7 +486,7 @@ works:
     title: "Dynamicland"
     year: 2017 — present
     location: https://dynamicland.org/
-    suggestors:
+    suggesters:
       - geoffreylitt
     curators:
       - jryans
@@ -511,7 +511,7 @@ works:
     year: 1986
     location: https://dl.acm.org/doi/abs/10.1145/6592.6595
     image: /works/boxer.png
-    suggestors:
+    suggesters:
       - geoffreylitt
       - cklokmose
     curators:
@@ -541,7 +541,7 @@ works:
     title: "A Future of Programming"
     year: 2019
     location: https://stefan-lesser.com/2019/12/24/a-future-of-programming/
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - 7h3kk1d
@@ -562,7 +562,7 @@ works:
     description: "A zoomable graphical sketchpad. Documentation and more information can be found [here](https://www.cs.umd.edu/hcil/pad++/)."
     year: 1994
     location: http://www.cs.umd.edu/hcil/pad%2B%2B/papers/uist-94-pad/uist-94-pad.pdf
-    suggestors:
+    suggesters:
       - cklokmose
     curators:
       - 7h3kk1d
@@ -586,7 +586,7 @@ works:
     title: "Convivial Design Heuristics for Software Systems"
     year: 2020
     location: https://www.cs.kent.ac.uk/people/staff/srk21/research/papers/kell20convivial.pdf
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -614,7 +614,7 @@ works:
     title: "Bring Your Own Client"
     year: 2021
     location: https://www.geoffreylitt.com/2021/03/05/bring-your-own-client.html
-    suggestors:
+    suggesters:
       - karlicoss
       - 7h3kk1d
       - jryans
@@ -633,7 +633,7 @@ works:
     year: 2019
     location: https://www.youtube.com/watch?v=ntaudUum06E
     image: /works/worldwithoutapps.jpg
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - jryans
@@ -669,7 +669,7 @@ works:
     title: "The future of software, the end of apps, and why UX designers should care about type theory"
     year: 2013
     location: https://pchiusano.github.io/2013-05-22/future-of-software.html
-    suggestors:
+    suggesters:
       - computably
       - jryans
     curators:
@@ -713,7 +713,7 @@ works:
     title: "An app can be a home-cooked meal"
     year: 2020
     location: https://www.robinsloan.com/notes/home-cooked-app/
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - akkartik
@@ -742,7 +742,7 @@ works:
     title: "Armories for tool-maker/tool-user collaborations"
     year: 2021
     location: https://www.patreon.com/posts/armories-for-52549432
-    suggestors:
+    suggesters:
       - jryans
     curators:
       - akkartik

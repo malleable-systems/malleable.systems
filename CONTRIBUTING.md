@@ -50,7 +50,7 @@ The current workflow for adding something to catalog looks roughly like this:
    their works. If you're adding the first work by a particular author, it's
    likely best to just list their name explicitly in the work data and skip the
    `actors` list.
-7. The `suggestors` field tracks anyone who may have mentioned the item might be
+7. The `suggesters` field tracks anyone who may have mentioned the item might be
    a good fit for the catalog, and ideally this references their ID from the
    [contributors list][contributors-data], but we can clean that up in a
    separate pass if it's too much trouble
