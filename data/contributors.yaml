@@ -1,43 +1,64 @@
 contributors:
   khinsen:
     name: Konrad Hinsen
+    roles:
+      - Blog post author
+      - Catalog curator
+      - Catalog suggester
     avatar: /avatars/khinsen.jpg
     website: https://khinsen.net
     twitter: khinsen
   cklokmose:
     name: Clemens N. Klokmose
     affiliation: Aarhus University
+    roles:
+      - Catalog suggester
     avatar: /avatars/cklokmose.jpg
     website: https://cs.au.dk/~clemens/
     twitter: cklokmose
   geoffreylitt:
     name: Geoffrey Litt
     affiliation: MIT
+    roles:
+      - Catalog suggester
     avatar: /avatars/geoffreylitt.jpg
     website: https://www.geoffreylitt.com
     twitter: geoffreylitt
   jryans:
     name: J. Ryan Stinnett
-    role: Collective organiser
+    roles:
+      - Collective organiser
+      - Catalog curator
+      - Catalog suggester
+      - Blog post author
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
     twitter: jryans
   7h3kk1d:
     name: Alexander Bandukwala
+    roles:
+      - Catalog curator
+      - Catalog suggester
     avatar: /avatars/7h3kk1d.jpg
     website: https://bandukwala.me
     twitter: abanduk
   karlicoss:
+    roles:
+      - Catalog suggester
     avatar: /avatars/karlicoss.jpg
     website: https://beepb00p.xyz
     twitter: karlicoss
   computably:
     name: Jimmy Ye
+    roles:
+      - Catalog suggester
     avatar: /avatars/computably.jpg
     website: https://rationalis.github.io
     github: rationalis
   akkartik:
     name: Kartik Agaram
+    roles:
+      - Catalog curator
     avatar: /avatars/akkartik.jpg
     website: http://akkartik.name
     github: https://github.com/akkartik
