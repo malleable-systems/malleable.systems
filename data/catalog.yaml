@@ -790,3 +790,15 @@ works:
         with Crochet can only use your computer and your data in ways you 
         explicitly consent to---it can't change your files or send your 
         information over the internet without your knowledge and consent."
+      - "One of the core principles of Crochet is that you should feel safe
+       to experiment with your computer as much as you want, without having 
+       to worry about questions like: “If I install this application, will
+       it try to steal my files?” or “What if I try this and it breaks
+       my computer?”"
+    additional_resources:
+      - label: What's Crochet
+        url: https://crochet.qteati.me/docs/reference/system/whats-crochet.html
+        description: A general description of the Crochet programming system
+      - label: Design Philosophy
+        url: https://crochet.qteati.me/docs/reference/system/design-philosophy.html
+        description: Principles that guide Crochet
