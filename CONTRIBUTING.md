@@ -67,8 +67,14 @@ contribution, so we're doing our best to record everyone involved in the process
 so we can feature them on the site ([soon][feature-contributors]).
 
 If you would like to preview your new item before submission, you should be able
-to do so by installing [Hugo][hugo] and running `hugo server` at root level of
-this repo. Our CI system will also deploy a preview site once you open your PR,
+to do so:
+
+1. Install [Hugo][hugo]
+2. Clone this repo
+3. Fetch submodules as well: `git submodule update --init`
+3. Run `hugo server` at root level of the repo
+
+Our CI system will also deploy a preview site once you open your PR,
 so it's easy for everyone to check over your contribution.
 
 If you made it this far, thanks so much for your help! 😄
