@@ -79,20 +79,22 @@
               <img class="db mw5 fr-ns ml1-ns mb1-ns" src="{{ . }}" />
             </a>
             {{ end }}
+            {{ with .additional_resources }}
+            <div class="f6">
+              <span class="b">Additional Resources</span>
+              <ul>
+                {{ range . }}
+                <li><a href="{{ .url }}">{{ .label }}</a>{{ if .description }}: {{ .description }} {{ end }}</li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
             {{ with .quotes }}
             <ul class="pl0">
               {{ range . }}
               <blockquote class="slimquote">{{ . | markdownify }}</blockquote>
               {{ end }}
             </ul>
-            {{ end }}
-            {{ with .additional_resources }}
-              <span class="b mv0">Additional Resources</span>
-              <ul>
-              {{ range . }}
-                <li><a href="{{ .url }}">{{ .label }}</a>{{ if .description }}: {{ .description }} {{ end }}</li>
-              {{ end }}
-              </ul>
             {{ end }}
           </div>
         </li>
