@@ -90,7 +90,7 @@
               <span class="b mv0">Additional Resources</span>
               <ul>
               {{ range . }}
-                <li><a href="#{{ .url }}">{{ .label }}</a>{{ if .description }}: {{ .description }} {{ end }}</li>
+                <li><a href="{{ .url }}">{{ .label }}</a>{{ if .description }}: {{ .description }} {{ end }}</li>
               {{ end }}
               </ul>
             {{ end }}
