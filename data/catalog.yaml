@@ -774,9 +774,9 @@ works:
     authors:
       - Q
     title: "Crochet"
-    year: 2021 - Present
+    year: 2021 — Present
     location: https://crochet.qteati.me/
-    suggestors:
+    suggesters:
       - jryans
       - 7h3kk1d
     curators:
@@ -789,11 +789,10 @@ works:
         with Crochet can only use your computer and your data in ways you 
         explicitly consent to---it can't change your files or send your 
         information over the internet without your knowledge and consent."
-      - "One of the core principles of Crochet is that you should feel safe
-       to experiment with your computer as much as you want, without having 
-       to worry about questions like: “If I install this application, will
-       it try to steal my files?” or “What if I try this and it breaks
-       my computer?”"
+      - "One of the core principles of Crochet is that you should feel safe to
+        experiment with your computer as much as you want, without having to
+        worry about questions like: “If I install this application, will it try
+        to steal my files?” or “What if I try this and it breaks my computer?”"
     additional_resources:
       - label: What's Crochet
         url: https://crochet.qteati.me/docs/reference/system/whats-crochet.html
