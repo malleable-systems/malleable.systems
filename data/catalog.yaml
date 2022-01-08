@@ -716,6 +716,10 @@ works:
       - jryans
     curators:
       - akkartik
+    description:
+      "Related to situated software ([<a
+      href='https://www.gwern.net/docs/technology/2004-03-30-shirky-situatedsoftware.html'>1</a>][<a
+      href='https://buttondown.email/hillelwayne/archive/situated-software'>2</a>])"
     quotes:
       - "I made a messaging app for, and with, my family. It is ruthlessly
         simple; we love it; no one else will ever use it."
@@ -730,10 +734,6 @@ works:
         teaching them... I will gently suggest that perhaps coding might be
         entangled the same way... with our domesticity and comfort, nerdiness
         and curiosity, health and love."
-    description:
-      "Related to situated software ([<a
-      href='https://www.gwern.net/docs/technology/2004-03-30-shirky-situatedsoftware.html'>1</a>][<a
-      href='https://buttondown.email/hillelwayne/archive/situated-software'>2</a>])"
   armories:
     kind: post
     authors:
@@ -782,11 +782,18 @@ works:
       - 7h3kk1d
     description:
       "Crochet is a tool for creating and remixing interactive stories, safely."
+    additional_resources:
+      - label: What's Crochet
+        url: https://crochet.qteati.me/docs/reference/system/whats-crochet.html
+        description: A general description of the Crochet programming system
+      - label: Design Philosophy
+        url: https://crochet.qteati.me/docs/reference/system/design-philosophy.html
+        description: Principles that guide Crochet
     quotes:
       - "Crochet goes to great lengths to make creating, running and remixing
-        content as safe and privacy respecting as possible. Content built 
-        with Crochet can only use your computer and your data in ways you 
-        explicitly consent to---it can't change your files or send your 
+        content as safe and privacy respecting as possible. Content built
+        with Crochet can only use your computer and your data in ways you
+        explicitly consent to---it can't change your files or send your
         information over the internet without your knowledge and consent."
       - "One of the core principles of Crochet is that you should feel safe to
         experiment with your computer as much as you want, without having to
@@ -801,10 +808,3 @@ works:
         user-extensible IDEs, user-extensible Debuggers, user-extensible REPLs,
         etc. And these users should be able to modify any aspect of these tools to
         fit new languages (interactions, manipulations, rules, etc)."
-    additional_resources:
-      - label: What's Crochet
-        url: https://crochet.qteati.me/docs/reference/system/whats-crochet.html
-        description: A general description of the Crochet programming system
-      - label: Design Philosophy
-        url: https://crochet.qteati.me/docs/reference/system/design-philosophy.html
-        description: Principles that guide Crochet
