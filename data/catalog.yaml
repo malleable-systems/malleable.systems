@@ -716,10 +716,11 @@ works:
       - jryans
     curators:
       - akkartik
-    description:
-      "Related to situated software ([<a
-      href='https://www.gwern.net/docs/technology/2004-03-30-shirky-situatedsoftware.html'>1</a>][<a
-      href='https://buttondown.email/hillelwayne/archive/situated-software'>2</a>])"
+    additional_resources:
+      - label: Clay Shirky's Situated Software (2004)
+        url: https://www.gwern.net/docs/technology/2004-03-30-shirky-situatedsoftware.html
+      - label: Hillel Wayne's take on Situated Software (2020)
+        url: https://buttondown.email/hillelwayne/archive/situated-software
     quotes:
       - "I made a messaging app for, and with, my family. It is ruthlessly
         simple; we love it; no one else will ever use it."
