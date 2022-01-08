@@ -748,8 +748,8 @@ works:
       - akkartik
     description:
       "Describes a deeper, more intense 2-person alternative to ecologies for
-      tailorable software (summarized in Philip Tchernavskij's “Designing and
-      programming malleable software” elsewhere in this catalog)."
+      tailorable software (summarized in Philip Tchernavskij's [Designing and
+      Programming Malleable Software](#malleable))."
     quotes:
       - "Great tools for thought rarely come from contexts focused on creating
         tools. They’re usually created in the course of deep creative work in
