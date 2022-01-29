@@ -72,6 +72,7 @@
           <span class="b mv0">{{ .title }}</span>.
           {{ end }}
           {{ with .year }}<span>{{ . }}</span>.{{ end }}
+          {{ with .years }}<span>{{ index . 0 }} – {{ index . 1 }}</span>.{{ end }}
           <div class="pl4">
             {{ with .description }}<div>{{ . | markdownify }}</div>{{ end }}
             {{ with .image }}

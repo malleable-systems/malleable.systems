@@ -135,7 +135,9 @@ works:
         type: contributor
     title:
       liballocs
-    year: 2011 — present
+    years:
+      - 2011
+      - present
     location: https://github.com/stephenrkell/liballocs
     description:
       "Meta-level run-time services for Unix processes... a.k.a. dragging Unix
@@ -324,7 +326,9 @@ works:
       - HyperCard team at Apple
     title:
       "HyperCard"
-    year: 1987 — 2004
+    years:
+      - 1987
+      - 2004
     location: https://en.wikipedia.org/wiki/HyperCard
     image: /works/hypercard.png
     suggesters:
@@ -349,7 +353,9 @@ works:
       - "[contributors](https://www.gnu.org/software/emacs/manual/html_node/emacs/Acknowledgments.html)"
     title:
       "GNU Emacs"
-    year: 1976 — present
+    years:
+      - 1976
+      - present
     location: https://www.gnu.org/software/emacs/
     image: /works/emacs.png
     suggesters:
@@ -419,7 +425,9 @@ works:
       - "[feenk](https://feenk.com/)"
     title:
       "Glamorous Toolkit"
-    year: 2017 — present
+    years:
+      - 2017
+      - present
     location: https://gtoolkit.com/
     suggesters:
       - jryans
@@ -450,7 +458,9 @@ works:
       - Adele Goldberg
       - Learning Research Group of Xerox PARC
     title: "Smalltalk"
-    year: 1972 — present
+    years:
+      - 1972
+      - present
     location: https://en.wikipedia.org/wiki/Smalltalk
     suggesters:
       - geoffreylitt
@@ -483,7 +493,9 @@ works:
       - Paula Te
       - Virginia McArthur
     title: "Dynamicland"
-    year: 2017 — present
+    years:
+      - 2017
+      - present
     location: https://dynamicland.org/
     suggesters:
       - geoffreylitt
@@ -774,7 +786,9 @@ works:
     authors:
       - Q
     title: "Crochet"
-    year: 2021 — Present
+    years:
+      - 2021
+      - present
     location: https://crochet.qteati.me/
     suggesters:
       - jryans
