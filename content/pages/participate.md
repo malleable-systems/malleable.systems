@@ -13,7 +13,8 @@ ways to get involved and contribute to this movement.
 
 We have various ways to share and discuss work from the community:
 
-* Follow and mention the community on [Twitter][twitter]
+* Follow and mention the community on [Mastodon][mastodon] and
+  [Twitter][twitter]
 * Chat with us in our [Matrix room][matrix]
 * Read the community [blog][blog] where we share projects and essays in various
   states of completion
@@ -51,6 +52,7 @@ achieve that, please let us know.
 [catalog]: {{< relref "/catalog/_index.md">}}
 [contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
 [feedback]: mailto:hello@malleable.systems
+[mastodon]: https://hachyderm.io/@malleablesys
 [twitter]: https://twitter.com/malleablesys
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org
 [blog]: {{< relref "/blog/_index.md" >}}

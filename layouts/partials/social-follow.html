@@ -1,39 +1,46 @@
 <a href="/blog/index.xml"
-   target="_blank" rel="noopener" title="RSS"
+   target="_blank" rel="noopener me" title="RSS"
    class="link-transition social link mr1">
   <i class="fa fa-rss fa-2x"></i>
 </a>
 {{ with .Param "email" }}
 <a href="{{ . }}"
-   target="_blank" rel="noopener" title="Email"
+   target="_blank" rel="noopener me" title="Email"
    class="link-transition social link mr1">
   <i class="fa fa-send fa-2x"></i>
 </a>
 {{ end }}
 {{ with .Param "newsletter" }}
 <a href="{{ . }}"
-   target="_blank" rel="noopener" title="Newsletter"
+   target="_blank" rel="noopener me" title="Newsletter"
    class="link-transition social link mr1">
   <i class="fa fa-envelope fa-2x"></i>
 </a>
 {{ end }}
+{{ with .Param "mastodon" }}
+<a href="{{ . }}"
+   target="_blank" rel="noopener me" title="Mastodon"
+   class="link-transition social link mr1">
+  <i class="fa fa-mastodon fa-2x"></i>
+</a>
+{{ end }}
 {{ with .Param "twitter" }}
 <a href="{{ . }}"
-   target="_blank" rel="noopener" title="Twitter"
+   target="_blank" rel="noopener me" title="Twitter"
    class="link-transition social link mr1">
   <i class="fa fa-twitter fa-2x"></i>
 </a>
 {{ end }}
 {{ with .Param "matrix" }}
 <a href="{{ . }}"
-   target="_blank" rel="noopener" title="Matrix"
+   target="_blank" rel="noopener me" title="Matrix"
    class="link-transition social link mr1">
   <i class="fa fa-matrix-org fa-2x"></i>
 </a>
 {{ end }}
 {{ with .Param "github" }}
 <a href="{{ . }}"
-   target="_blank" rel="noopener" title="GitHub"
+   target="_blank" rel="noopener me" title="GitHub"
    class="link-transition social link mr1">
   <i class="fa fa-github fa-2x"></i>
 </a>
