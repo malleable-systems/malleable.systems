@@ -7,6 +7,7 @@ contributors:
       - Blog post author
     avatar: /avatars/khinsen.jpg
     website: https://khinsen.net
+    mastodon: https://scholar.social/@khinsen
     twitter: khinsen
   cklokmose:
     name: Clemens N. Klokmose
@@ -15,6 +16,7 @@ contributors:
       - Catalog suggester
     avatar: /avatars/cklokmose.jpg
     website: https://cs.au.dk/~clemens/
+    mastodon: https://social.multiverset.net/@clemens
     twitter: cklokmose
   geoffreylitt:
     name: Geoffrey Litt
@@ -23,6 +25,7 @@ contributors:
       - Catalog suggester
     avatar: /avatars/geoffreylitt.jpg
     website: https://www.geoffreylitt.com
+    mastodon: https://mastodon.social/@geoffreylitt
     twitter: geoffreylitt
   jryans:
     name: J. Ryan Stinnett
@@ -33,6 +36,7 @@ contributors:
       - Blog post author
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
+    mastodon: https://merveilles.town/@jryans
     twitter: jryans
   7h3kk1d:
     name: Alexander Bandukwala
@@ -41,12 +45,14 @@ contributors:
       - Catalog suggester
     avatar: /avatars/7h3kk1d.jpg
     website: https://bandukwala.me
+    mastodon: https://fosstodon.org/@thekkid
     twitter: abanduk
   karlicoss:
     roles:
       - Catalog suggester
     avatar: /avatars/karlicoss.jpg
     website: https://beepb00p.xyz
+    mastodon: https://merveilles.town/@karlicoss
     twitter: karlicoss
   computably:
     name: Jimmy Ye
@@ -61,4 +67,5 @@ contributors:
       - Catalog curator
     avatar: /avatars/akkartik.jpg
     website: http://akkartik.name
+    mastodon: https://merveilles.town/@akkartik
     twitter: akkartik
