@@ -22,6 +22,7 @@ actors:
     affiliation: Aarhus University
     avatar: /avatars/cklokmose.jpg
     website: https://cs.au.dk/~clemens/
+    mastodon: https://social.multiverset.net/@clemens
     twitter: cklokmose
   weiwei:
     name: Weiwei Xu
@@ -39,6 +40,7 @@ actors:
     affiliation: MIT
     avatar: /avatars/geoffreylitt.jpg
     website: https://www.geoffreylitt.com
+    mastodon: https://mastodon.social/@geoffreylitt
     twitter: geoffreylitt
   yoshikischmitz:
     name: Yoshiki Schmitz
@@ -49,6 +51,7 @@ actors:
     name: J. Ryan Stinnett
     avatar: /avatars/jryans.jpg
     website: https://convolv.es
+    mastodon: https://merveilles.town/@jryans
     twitter: jryans
   ptchernavskij:
     name: Philip Tchernavskij

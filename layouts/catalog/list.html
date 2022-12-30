@@ -130,6 +130,13 @@
               <i class="fa fa-home"></i>
             </a>
             {{ end }}
+            {{ with .mastodon }}
+            <a href="{{ . }}"
+              target="_blank" rel="noopener" title="Mastodon"
+              class="link-transition social link">
+              <i class="fa fa-mastodon"></i>
+            </a>
+            {{ end }}
             {{ with .twitter }}
             <a href="https://twitter.com/{{ . }}"
                target="_blank" rel="noopener" title="Twitter"
