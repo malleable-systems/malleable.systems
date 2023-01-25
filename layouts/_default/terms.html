@@ -1,5 +1,6 @@
 {{ define "main" }}
-    {{ $data := .Data }}
+  {{ $data := .Data }}
+  {{ $site := .Site }}
   <article class="cf pa3 pa4-m pa4-l">
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
       {{ .Content }}
@@ -9,9 +10,11 @@
     <section class="ph4">
       {{ range $key, $value := .Data.Terms }}
         <h2 class="f1">
-          <a href="{{ "/" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}" class="link blue hover-black">
+          {{ with printf "%s/%s" ($.Data.Plural | urlize) ($key | urlize) | $site.GetPage }}
+          <a href="{{ .Permalink }}" class="link blue hover-black">
             {{ $.Data.Singular | humanize }}: {{ $key }}
           </a>
+          {{ end }}
         </h2>
         {{ range $value.Pages }}
           {{ partial "summary.html" . }}
