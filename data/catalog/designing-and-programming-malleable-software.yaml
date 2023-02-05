@@ -1,0 +1,21 @@
+kind: thesis
+authors:
+  - ptchernavskij
+title: Designing and Programming Malleable Software
+year: "2019"
+location: https://tcher.tech/publications/PhilipTchernavskij_PhDThesis.pdf
+suggesters:
+  - jryans
+curators:
+  - jryans
+additional_resources: []
+quotes:
+  - The contemporary landscape of interactive software operates as a
+    "designer-knows-best" model that gives users very few opportunities to
+    change their software or to make different pieces of software work together
+    as they see fit.
+  - I introduce malleable software as a design vision that reconstructs the
+    goals of tailorable systems with pluralism as a guiding value. Malleable
+    software is made up of interface elements untangled from the closed worlds
+    of apps, which can be developed by different authors and (re-)combined by
+    end users.

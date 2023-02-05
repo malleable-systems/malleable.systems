@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "config": "^3.3.9",
+    "yaml": "^2.2.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "forumSite": "https://forum.malleable.systems",
+  "categoryPath": "/c/catalog/7",
+  "topicPath": "/t/",
+  "postPath": "/posts/",
+  "dataDir": "../data/catalog"
+}
