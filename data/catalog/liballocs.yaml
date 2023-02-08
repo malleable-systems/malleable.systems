@@ -9,6 +9,8 @@ years:
   - 2011
   - present
 location: https://github.com/stephenrkell/liballocs
+description: Meta-level run-time services for Unix processes... a.k.a. dragging
+  Unix into the 1980s
 suggesters:
   - jryans
 curators:

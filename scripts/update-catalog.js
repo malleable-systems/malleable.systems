@@ -56,6 +56,12 @@ async function processPost(post, topic) {
     year = parseInt(bylineMatch[3]);
   }
 
+  let description;
+  const afterByline = raw.split("\n")[4];
+  if (!afterByline.startsWith(">")) {
+    description = afterByline;
+  }
+
   const suggestersMatch = raw.match(/suggesters: (.*)/i);
   const suggesters = suggestersMatch?.[1].split(", ") ?? [];
 
@@ -86,6 +92,7 @@ async function processPost(post, topic) {
     year,
     years,
     location,
+    description,
     suggesters,
     curators,
     additional_resources: resources,

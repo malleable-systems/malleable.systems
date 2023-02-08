@@ -1,0 +1,19 @@
+kind: tweet
+authors:
+  - yoshikischmitz
+title: Software as a "place"
+year: 2019
+location: https://twitter.com/yoshikischmitz/status/1208625526966902784
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - 'What makes a piece of software a "place" vs a "tool" or an "appliance"? ...
+    I think some notion of **limitlessness and nesting** are necessary. [The
+    feeling of a "place"] seems to come from some kind of limitlessness: Notion
+    has infinite hierarchies, Figma has an infinite canvas. ... This definition
+    matters to me because appliances are static, but places can be occupied and
+    changed. You can have memories and experiences in them. Things can grow in
+    them. New stuff can emerge. Communities can form. I want more software to be
+    like that.'

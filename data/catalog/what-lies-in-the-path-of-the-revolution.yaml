@@ -1,0 +1,28 @@
+kind: paper
+authors:
+  - basman
+  - ptchernavskij
+title: What Lies in the Path of the Revolution
+year: 2018
+location: https://tcher.tech/publications/PPIG2018_WhatLiesInThePathOfTheRevolution.pdf
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - We argue that a form of "**digital serfdom**" has rapidly grown up around
+    us, where various important classes of artefacts, increasingly essential for
+    everyday life, including participation in political and economic life,
+    cannot be effectively owned by ordinary individuals.
+  - Many of the technological barriers to ownership, especially as regards
+    software, can be seen as embedded in certain questions of "reuse" — one of
+    the central affordances of ownership is the ability to transplant a thing
+    from its original location to a different one, following the desires or
+    person of the owner. For most kinds of software this is possible in only a
+    crude way — an "application" can be installed on one machine rather than
+    another — and with the rising prevalence of rental or cloud-based models for
+    the deployment of software, it is decreasingly possible at all.
+  - If you find a piece of software that does something of value to you, **it
+    should be possible to make it your own**. This implies that you can keep
+    using it as part of the collection of tools you carry with you, in familiar
+    contexts, or experiment with using it in novel contexts.
