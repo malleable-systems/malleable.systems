@@ -23,7 +23,7 @@ async function getJSON(path) {
 async function processPost(post, topic) {
   const postDoc = await getJSON(postPath + post.id);
   console.log(`Processing post ${postDoc.id}: ${topic.title}...`)
-  const { raw } = postDoc;
+  const { raw, cooked } = postDoc;
 
   const locationMatch = raw.match(/^http.*/m);
   if (!locationMatch) {
@@ -62,13 +62,19 @@ async function processPost(post, topic) {
     description = afterByline;
   }
 
+  let image;
+  const imageMatch = cooked.match(/<img src="(.+?)" alt/i);
+  if (imageMatch) {
+    image = imageMatch[1];
+  }
+
   const suggestersMatch = raw.match(/suggesters: (.*)/i);
   const suggesters = suggestersMatch?.[1].split(", ") ?? [];
 
   const curatorsMatch = raw.match(/curators: (.*)/i);
   const curators = curatorsMatch?.[1].split(", ") ?? [];
 
-  const resourcesMatch = [...raw.matchAll(/\[(.*)\]\((.*)\)/ig)];
+  const resourcesMatch = [...raw.matchAll(/ \[(.*)\]\((.*)\)/ig)];
   let resources = resourcesMatch.map(match => {
     return {
       label: match[1],
@@ -93,6 +99,7 @@ async function processPost(post, topic) {
     years,
     location,
     description,
+    image,
     suggesters,
     curators,
     additional_resources: resources,
