@@ -27,14 +27,14 @@ async function processPost(post, topic) {
 
   const locationMatch = raw.match(/^http.*/m);
   if (!locationMatch) {
-    console.warn("No location found, skipping", locationMatch);
+    console.warn("No location found, skipping", raw);
     return;
   }
   const location = locationMatch[0];
 
   const bylineMatch = raw.match(/^(\w+) by (.*) \((\d{4})\)/im);
   if (!bylineMatch) {
-    console.warn("No byline match, skipping", bylineMatch);
+    console.warn("No byline match, skipping", raw);
     return;
   }
   const kind = bylineMatch[1].toLowerCase();
