@@ -2,7 +2,7 @@ kind: post
 authors:
   - Robin Sloan
 title: An app can be a home-cooked meal
-year: "2020"
+year: 2020
 location: https://www.robinsloan.com/notes/home-cooked-app/
 suggesters:
   - jryans

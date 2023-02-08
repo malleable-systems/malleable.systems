@@ -32,14 +32,29 @@ async function processPost(post, topic) {
   }
   const location = locationMatch[0];
 
-  const bylineMatch = raw.match(/^(\w+) by (.*) \((\d{4})\)/im);
+  const bylineMatch = raw.match(/^(\w+) by (.+) \((\d{4})( -- (\d{4}|present))?\)/im);
   if (!bylineMatch) {
     console.warn("No byline match, skipping", raw);
     return;
   }
   const kind = bylineMatch[1].toLowerCase();
-  const authors = bylineMatch[2].split(", ");
-  const year = bylineMatch[3];
+  const authors = bylineMatch[2].split(", ").map(author => {
+    const authorTypeMatch = author.match(/(.+) \((\w+)\)/);
+    if (!authorTypeMatch) {
+      return author;
+    }
+    return {
+      name: authorTypeMatch[1],
+      type: authorTypeMatch[2],
+    };
+  });
+  let year, years;
+  if (bylineMatch[5]) {
+    years = [bylineMatch[3], bylineMatch[5]];
+    years = years.map(y => y == "present" ? y : parseInt(y));
+  } else {
+    year = parseInt(bylineMatch[3]);
+  }
 
   const suggestersMatch = raw.match(/suggesters: (.*)/i);
   const suggesters = suggestersMatch?.[1].split(", ") ?? [];
@@ -48,21 +63,28 @@ async function processPost(post, topic) {
   const curators = curatorsMatch?.[1].split(", ") ?? [];
 
   const resourcesMatch = [...raw.matchAll(/\[(.*)\]\((.*)\)/ig)];
-  const resources = resourcesMatch.map(match => {
+  let resources = resourcesMatch.map(match => {
     return {
       label: match[1],
       url: match[2],
     };
   });
+  if (!resources.length) {
+    resources = undefined;
+  }
 
   const quotesMatch = [...raw.matchAll(/>\s+(.*)/ig)];
-  const quotes = quotesMatch.map(match => match[1]);
+  let quotes = quotesMatch.map(match => match[1]);
+  if (!quotes.length) {
+    quotes = undefined;
+  }
 
   const entry = {
     kind,
     authors,
     title: topic.title,
     year,
+    years,
     location,
     suggesters,
     curators,

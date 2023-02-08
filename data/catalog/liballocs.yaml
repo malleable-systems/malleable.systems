@@ -1,0 +1,24 @@
+kind: library
+authors:
+  - name: stephenrkell
+    type: owner
+  - name: jryans
+    type: contributor
+title: liballocs
+years:
+  - 2011
+  - present
+location: https://github.com/stephenrkell/liballocs
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - Unix abstractions are fairly simple and fairly general, but they are not
+    humane, and they invite fragmentation. By 'not humane', I mean that they are
+    error-prone and difficult to experiment with interactively. By
+    'fragmentation', I mean they invite building higher-level abstractions in
+    mutually opaque and incompatible ways (think language VMs, file formats,
+    middlewares...). To avoid these, liballocs is a minimal extension of
+    Unix-like abstractions broadly in the spirit of Smalltalk-style dynamism,
+    designed to counter both of these problems.

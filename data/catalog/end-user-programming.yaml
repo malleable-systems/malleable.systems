@@ -2,13 +2,12 @@ kind: paper
 authors:
   - inkandswitch
 title: End-user programming
-year: "2019"
+year: 2019
 location: https://www.inkandswitch.com/end-user-programming.html
 suggesters:
   - jryans
 curators:
   - jryans
-additional_resources: []
 quotes:
   - Desktop programs, web apps, and smartphone apps are to various degrees like
     appliances with a hermetic seal to keep users out of their interior. If

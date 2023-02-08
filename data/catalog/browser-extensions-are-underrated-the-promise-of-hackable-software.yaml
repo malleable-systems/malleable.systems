@@ -2,13 +2,12 @@ kind: post
 authors:
   - geoffreylitt
 title: "Browser extensions are underrated: the promise of hackable software"
-year: "2019"
+year: 2019
 location: https://www.geoffreylitt.com/2019/07/29/browser-extensions.html
 suggesters:
   - jryans
 curators:
   - jryans
-additional_resources: []
 quotes:
   - Among major software platforms today, browser extensions are the rare
     exception that allow and encourage users to modify the apps that we use, in

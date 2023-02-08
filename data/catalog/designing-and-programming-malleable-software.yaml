@@ -2,13 +2,12 @@ kind: thesis
 authors:
   - ptchernavskij
 title: Designing and Programming Malleable Software
-year: "2019"
+year: 2019
 location: https://tcher.tech/publications/PhilipTchernavskij_PhDThesis.pdf
 suggesters:
   - jryans
 curators:
   - jryans
-additional_resources: []
 quotes:
   - The contemporary landscape of interactive software operates as a
     "designer-knows-best" model that gives users very few opportunities to
