@@ -1,0 +1,26 @@
+kind: paper
+authors:
+  - stephenrkell
+title: Convivial Design Heuristics for Software Systems
+year: 2020
+location: https://www.humprog.org/~stephen/research/papers/kell20convivial.pdf
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - Consider how many web applications contain their own embedded 'rich text'
+    editing widget. If linking were truly at the heart of the web’s design, a
+    user (not just a developer) could supply their own preferred editor easily,
+    but such a feat is almost always impossible. A convivial system should not
+    contain multitudes; it should permit linking to them.
+  - "The battle for convivial software in this sense appears similar to other
+    modern struggles, such as the battle to avert climate disaster. Relying on
+    local, individual rationality alone is a losing game: humans lack the
+    collective consciousness that collective rationality would imply, and much
+    human activity happens as the default result of 'normal behaviour'. To shift
+    this means to shift what is normal. Local incentives will play their part,
+    but social doctrines, whether relatively transactional notions such as
+    intergenerational contract, or quasi-spiritual notions of our evolved bond
+    with the planet, also seem essential if there is to be hope of steering
+    humans away from collective destruction."

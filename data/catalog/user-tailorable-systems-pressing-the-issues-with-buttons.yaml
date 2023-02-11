@@ -1,0 +1,35 @@
+kind: paper
+authors:
+  - Allan MacLean
+  - Kathleen Carter
+  - Lennart Lövstrand
+  - Thomas Moran
+title: "User-tailorable systems: pressing the issues with buttons"
+year: 1990
+location: https://dl.acm.org/doi/abs/10.1145/97243.97271
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - It is impossible to design systems which are appropriate for all users and
+    all situations. We believe that a useful technique is to have end users
+    tailor their systems to match their personal work practices. This requires
+    not only systems which can be tailored, but a culture within which users
+    feel in control of the system and in which tailoring is the norm.
+  - It is worth emphasising that we are interested here in skills required for
+    tailoring. We do not intend to suggest that a 'programmer' is more skilled
+    than a 'worker' in any absolute sense. If we were to focus on skills in the
+    work domain, we would find that the worker was most skilled and the
+    programmer least skilled.
+  - As a first step in growing a tailoring culture, we claim that **it should be
+    as easy to change the environment as it is to use it** (clearly all changes
+    one might want to make will not be so easy - but it is important that some
+    should be).
+  - A remarkable amount of tailoring can be done by relying on buttons produced
+    by other people. Buttons can be kept in documents and can be easily passed
+    around by email, thus they are a tool for the user community to augment the
+    Xerox Lisp environment by combining individual innovation and by sharing
+    improvements with others. The fact that small-grain improvements can easily
+    'diffuse' throughout the user community is a powerful principle for
+    supporting user-driven evolution of systems.

@@ -1,0 +1,28 @@
+kind: tool
+authors:
+  - Bret Victor
+  - Josh Horowitz
+  - Luke Iannini
+  - Toby Schachman
+  - Paula Te
+  - Virginia McArthur
+title: Dynamicland
+years:
+  - 2017
+  - present
+location: https://dynamicland.org/
+suggesters:
+  - geoffreylitt
+curators:
+  - jryans
+quotes:
+  - Dynamicland is a communal computer, designed for agency, not apps, where
+    people can think like whole humans.
+  - No normal person sees an app and thinks 'I can make that myself.' Or even 'I
+    can modify that to do what I actually need.' Computational media in
+    Dynamicland feels like stuff anyone can make. ... A humane dynamic medium
+    gently leads people down a path from playing, to crafting, to remixing, to
+    programming.
+  - Dynamicland is an authoring environment, and everyone is an author. People
+    make what they need for themselves. They learn through immersion. The true
+    power of the dynamic medium — programmability — is for everyone.

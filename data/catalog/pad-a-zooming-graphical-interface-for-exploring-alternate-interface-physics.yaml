@@ -1,0 +1,29 @@
+kind: paper
+authors:
+  - Benjamin B. Bederson
+  - James D. Hollan
+title: "Pad++: a zooming graphical interface for exploring alternate interface
+  physics"
+year: 1994
+location: https://www.cs.umd.edu/hcil/pad%2B%2B/papers/uist-94-pad/uist-94-pad.pdf
+description: A zoomable graphical sketchpad. Documentation and more information
+  can be found [here](https://www.cs.umd.edu/hcil/pad++/).
+suggesters:
+  - cklokmose
+curators:
+  - 7h3kk1d
+quotes:
+  - ... Pad++, an infinite resolution sketchpad that we are exploring as an
+    alternative to traditional window and icon-based approaches to interface
+    design.
+  - There are numerous benefits to metaphor-based approaches, but they also lead
+    designers to employ computation primarily to mimic mechanisms of older
+    media. While there are important cognitive, cultural, and engineering
+    reasons to exploit earlier successful representations, this approach has the
+    potential of underutilizing the mechanisms of new media.
+  - We envision a much richer world of dynamic persistent informational entities
+    that operate according to multiple physics specifically designed to provide
+    cognitively facile access. The physics need to be designed to exploit
+    semantic relationships explicit and implicit in information-intensive tasks
+    and in our interaction with these new kinds of computationally-based work
+    materials.

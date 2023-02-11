@@ -17,7 +17,16 @@ async function getJSON(path) {
       "Accept": "application/json",
     },
   });
-  return response.json();
+  let text;
+  let json;
+  try {
+    text = await response.text();
+    json = JSON.parse(text);
+  } catch (e) {
+    console.error(text, response.headers);
+    throw new Error("Parsing failed");
+  }
+  return json;
 }
 
 async function processPost(post, topic) {
@@ -128,4 +137,5 @@ const topics = topicsDoc.topic_list.topics;
 
 for (const topic of topics) {
   await processTopic(topic);
+  await new Promise(resolve => setTimeout(resolve, 500));
 }
