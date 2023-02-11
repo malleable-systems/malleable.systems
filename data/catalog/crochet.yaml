@@ -1,0 +1,40 @@
+kind: tool
+authors:
+  - Q
+title: Crochet
+years:
+  - 2021
+  - present
+location: https://crochet.qteati.me/
+description: Crochet is a tool for creating and remixing interactive stories, safely.
+suggesters:
+  - jryans
+  - 7h3kk1d
+curators:
+  - 7h3kk1d
+additional_resources:
+  - label: What's Crochet
+    url: https://crochet.qteati.me/docs/reference/system/whats-crochet.html
+    description: A general description of the Crochet programming system
+  - label: Design Philosophy
+    url: https://crochet.qteati.me/docs/reference/system/design-philosophy.html
+    description: Principles that guide Crochet
+quotes:
+  - Crochet goes to great lengths to make creating, running and remixing content
+    as safe and privacy respecting as possible. Content built with Crochet can
+    only use your computer and your data in ways you explicitly consent to---it
+    can't change your files or send your information over the internet without
+    your knowledge and consent.
+  - 'One of the core principles of Crochet is that you should feel safe to
+    experiment with your computer as much as you want, without having to worry
+    about questions like: "If I install this application, will it try to steal
+    my files?" or "What if I try this and it breaks my computer?"'
+  - Crochet is a "language-driven" system, through the lenses that we interact
+    with computational concepts through languages; Even "direct manipulation"
+    forms a language, where the ways in which we can manipulate things is
+    dictated by a set of composable rules. A system like this, heavily dependent
+    on tooling, needs ways in which users can extend the system to fit their own
+    context. This means that Crochet has to support user-extensible IDEs,
+    user-extensible Debuggers, user-extensible REPLs, etc. And these users
+    should be able to modify any aspect of these tools to fit new languages
+    (interactions, manipulations, rules, etc).

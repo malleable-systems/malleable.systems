@@ -1,0 +1,33 @@
+kind: post
+authors:
+  - Andy Matuschak
+title: Armories for tool-maker/tool-user collaborations
+year: 2021
+location: https://www.patreon.com/posts/armories-for-52549432
+description: Describes a deeper, more intense 2-person alternative to ecologies
+  for tailorable software (summarized in Philip Tchernavskij's [Designing and
+  Programming Malleable
+  Software](#designing-and-programming-malleable-software).
+suggesters:
+  - jryans
+curators:
+  - akkartik
+quotes:
+  - Great tools for thought rarely come from contexts focused on creating tools.
+    They’re usually created in the course of deep creative work in some domain,
+    almost as a byproduct. And they’re usually made by people with significant
+    expertise and investment in those creative problems.
+  - "In most domains, great tool-makers are rarely great tool-users, and
+    vice-versa. There might be advantages to separating the work: the tool-maker
+    could constantly consider abstraction and generalization, and the tool-user
+    could focus on meaningful problems at hand without being distracted by
+    issues of systematization."
+  - There’s a tricky chicken-and-egg problem here. If great creative work should
+    drive the invention of new mediums, how can the initial idea driving the
+    creative work get started in the first place?
+  - The pair must proactively develop an _armory_ of tool ideas to equip the
+    tool-user’s explorations. Tool ideas in the armory don’t have to be working
+    software. They just have to be understood well enough that the tool-user can
+    tinker with them in emerging creative projects.
+  - This conception is mostly useful in the context of repeated collaborations,
+    particularly across distinct projects.

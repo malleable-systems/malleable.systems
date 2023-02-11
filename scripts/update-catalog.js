@@ -83,11 +83,12 @@ async function processPost(post, topic) {
   const curatorsMatch = raw.match(/curators: (.*)/i);
   const curators = curatorsMatch?.[1].split(", ") ?? [];
 
-  const resourcesMatch = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)/mg)];
+  const resourcesMatch = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)(: (.*))?/mg)];
   let resources = resourcesMatch.map(match => {
     return {
       label: match[1],
       url: match[2],
+      description: match[4] ? match[4] : undefined,
     };
   });
   if (!resources.length) {
