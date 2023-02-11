@@ -1,0 +1,28 @@
+kind: paper
+authors:
+  - cklokmose
+  - eagan
+  - Siemen Baader
+  - Wendy Mackay
+  - Michel Beaudouin-Lafon
+title: "Webstrates: Shareable Dynamic Media"
+year: 2015
+location: https://www.klokmose.net/clemens/wp-content/uploads/2015/08/webstrates.pdf
+image: https://forum.malleable.systems/uploads/default/original/1X/5adedba76258218e4548b4059c398e53d329df45.png
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - Webstrates offer a novel approach for creating shareable dynamic media that
+    blur the distinction between documents and applications. Our vision requires
+    software to be malleable by users, so they can appropriate documents and
+    tools to meet individual needs; shareable among users, so they can
+    collaborate on multiple aspects of the media; and distributable across
+    heterogeneous devices and platforms.
+  - By sharing embedded code, behavior typically associated with application
+    software can also be (collaboratively) manipulated, opening the way to novel
+    possibilities for combining content, computation and interaction. Webstrates
+    can be composed by embedding one webstrate within another, a process called
+    transclusion [Nelson 1995], that lets users truly share, rather than copy,
+    content.

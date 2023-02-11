@@ -58,7 +58,7 @@ async function processPost(post, topic) {
 
   let description;
   const afterByline = raw.split("\n")[4];
-  if (!afterByline.startsWith(">")) {
+  if (!/^[>!]/.test(afterByline)) {
     description = afterByline;
   }
 
@@ -74,7 +74,7 @@ async function processPost(post, topic) {
   const curatorsMatch = raw.match(/curators: (.*)/i);
   const curators = curatorsMatch?.[1].split(", ") ?? [];
 
-  const resourcesMatch = [...raw.matchAll(/ \[(.*)\]\((.*)\)/ig)];
+  const resourcesMatch = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)/mg)];
   let resources = resourcesMatch.map(match => {
     return {
       label: match[1],
@@ -85,7 +85,7 @@ async function processPost(post, topic) {
     resources = undefined;
   }
 
-  const quotesMatch = [...raw.matchAll(/>\s+(.*)/ig)];
+  const quotesMatch = [...raw.matchAll(/>\s+(.*)/g)];
   let quotes = quotesMatch.map(match => match[1]);
   if (!quotes.length) {
     quotes = undefined;

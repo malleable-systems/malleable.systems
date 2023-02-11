@@ -1,0 +1,31 @@
+kind: tool
+authors:
+  - Richard Stallman
+  - "[contributors](https://www.gnu.org/software/emacs/manual/html_node/emacs/A\
+    cknowledgments.html)"
+title: GNU Emacs
+years:
+  - 1976
+  - present
+location: https://www.gnu.org/software/emacs/
+image: https://forum.malleable.systems/uploads/default/optimized/1X/1844f611adf303cdf3539cffc3866f277ca79c3f_2_345x236.png
+suggesters:
+  - khinsen
+curators:
+  - khinsen
+quotes:
+  - Extensible means that you can go beyond simple customization and create
+    entirely new commands. New commands are simply programs written in the Lisp
+    language, which are run by Emacs's own Lisp interpreter. Existing commands
+    can even be redefined in the middle of an editing session, without having to
+    restart Emacs. Most of the editing commands in Emacs are written in Lisp;
+    the few exceptions could have been written in Lisp but use C instead for
+    efficiency. — _[GNU Emacs manual,
+    Introduction](https://www.gnu.org/software/emacs/manual/html_node/emacs/Intro.html#Intro)_
+  - Org can be used as a TODO lists manager and as a planner. Org is a great
+    plain-text table editor. Org is an authoring and publication tool. Org makes
+    literate programming a handy and natural way to deal with code. — _[Org mode
+    feature list](https://orgmode.org/features.html)_
+  - This appendix covers some areas where users can extend the functionality of
+    Org. — _[Org mode manual, Appendix A
+    Hacking](https://www.gnu.org/software/emacs/manual/html_mono/org.html#Hacking)_

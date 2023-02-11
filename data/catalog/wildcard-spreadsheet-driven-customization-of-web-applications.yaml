@@ -1,0 +1,29 @@
+kind: paper
+authors:
+  - geoffreylitt
+  - Daniel Jackson
+title: "Wildcard: Spreadsheet-Driven Customization of Web Applications"
+year: 2020
+location: https://www.geoffreylitt.com/wildcard/salon2020/
+image: https://forum.malleable.systems/uploads/default/optimized/1X/82018fc7c6bf92ac1c15a2c05bfbe45115c70a14_2_328x250.png
+suggesters:
+  - jryans
+curators:
+  - jryans
+quotes:
+  - In this paper, we present spreadsheet-driven customization, a technique that
+    enables end users to customize software without doing any traditional
+    programming. The idea is to augment an application’s UI with a spreadsheet
+    that is synchronized with the application’s data. When the user manipulates
+    the spreadsheet, the underlying data is modified and the changes are
+    propagated to the UI, and vice versa.
+  - Generic tools are especially important for software customization, because a
+    common barrier to customizing software is not having enough time [Mackay
+    1991]—it’s more likely that people will customize software frequently if
+    they can reuse the same tools across many applications.
+  - One of the most interesting properties of spreadsheets is that users
+    familiar with only a tiny sliver of their functionality (e.g., storing
+    tables of numbers and computing simple sums) can still use them in valuable
+    ways. This supports the user’s natural motivation to continue using the
+    tool, and to eventually learn its more powerful features if needed [Nardi
+    and Miller 1991].
