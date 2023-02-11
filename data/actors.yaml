@@ -1,0 +1,61 @@
+basman:
+  name: Antranig Basman
+  affiliation: Raising the Floor - International
+  avatar: /avatars/basman.jpg
+  website: https://ponder.org.uk
+  twitter: amb26ponder
+eagan:
+  name: James R. Eagan
+  affiliation: Télécom Paris
+  avatar: /avatars/eagan.jpg
+  website: https://james.eagan.fr
+  twitter: dr_eagan
+stephenrkell:
+  name: Stephen Kell
+  affiliation: King's College London
+  avatar: /avatars/stephenrkell.jpg
+  website: https://www.humprog.org/~stephen/
+  twitter: stephenrkell
+cklokmose:
+  name: Clemens N. Klokmose
+  affiliation: Aarhus University
+  avatar: /avatars/cklokmose.jpg
+  website: https://cs.au.dk/~clemens/
+  mastodon: https://social.multiverset.net/@clemens
+  twitter: cklokmose
+weiwei:
+  name: Weiwei Xu
+  affiliation: California College of the Arts
+  avatar: /avatars/weiwei.jpg
+  website: https://weiwei.place
+  twitter: weiweiwei33
+inkandswitch:
+  name: Ink & Switch
+  avatar: /avatars/inkandswitch.png
+  website: https://www.inkandswitch.com
+  twitter: inkandswitch
+geoffreylitt:
+  name: Geoffrey Litt
+  affiliation: MIT
+  avatar: /avatars/geoffreylitt.jpg
+  website: https://www.geoffreylitt.com
+  mastodon: https://mastodon.social/@geoffreylitt
+  twitter: geoffreylitt
+yoshikischmitz:
+  name: Yoshiki Schmitz
+  avatar: /avatars/yoshikischmitz.jpg
+  website: https://www.notion.so/About-Me-7543563c194748f4a500d2c164bd3057
+  twitter: yoshikischmitz
+jryans:
+  name: J. Ryan Stinnett
+  affiliation: King's College London
+  avatar: /avatars/jryans.jpg
+  website: https://convolv.es
+  mastodon: https://merveilles.town/@jryans
+  twitter: jryans
+ptchernavskij:
+  name: Philip Tchernavskij
+  affiliation: Aarhus University
+  avatar: /avatars/ptchernavskij.jpg
+  website: https://tcher.tech
+  twitter: ptchernavskij

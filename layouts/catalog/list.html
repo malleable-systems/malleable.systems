@@ -25,7 +25,7 @@
       </h1>
 
       <ul class="shuffle list pl0">
-        {{ range $key, $val := .Site.Data.catalog.works }}
+        {{ range $key, $val := .Site.Data.catalog }}
         <li id="{{ $key }}" class="mv2 cf">
           <a href="#{{ $key }}" class="no-underline">
             {{ if eq .kind "tweet"}}
@@ -42,12 +42,14 @@
             <i class="fa fa-bicycle fa-fw" title="Tool"></i>
             {{ else if eq .kind "video"}}
             <i class="fa fa-video fa-fw" title="Video"></i>
+            {{ else }}
+            <i class="fa fa-question-circle fa-fw" title="Unknown"></i>
             {{ end }}
           </a>
           <span>
           {{ range .authors }}
             {{ if reflect.IsMap . }}
-              {{ $author := index $.Site.Data.catalog.actors .name }}
+              {{ $author := index $.Site.Data.actors .name }}
               {{ if $author }}
               <span class="author">
                 <a href="#{{ . }}">{{ $author.name }}</a> ({{ .type }})</span>
@@ -55,7 +57,7 @@
               <span class="author">{{ . | markdownify }}</span>
               {{ end }}
             {{ else }}
-              {{ $author := index $.Site.Data.catalog.actors . }}
+              {{ $author := index $.Site.Data.actors . }}
               {{ if $author }}
               <span class="author"><a href="#{{ . }}">{{ $author.name }}</a></span>
               {{ else }}
@@ -67,9 +69,9 @@
           {{ if .location }}
           <a href="{{ .location }}"
              target="_blank" rel="noopener"
-          ><span class="b mv0">{{ .title }}</span></a>.
+          ><span class="b mv0">{{ .title | markdownify }}</span></a>.
           {{ else }}
-          <span class="b mv0">{{ .title }}</span>.
+          <span class="b mv0">{{ .title | markdownify }}</span>.
           {{ end }}
           {{ with .year }}<span>{{ . }}</span>.{{ end }}
           {{ with .years }}<span>{{ index . 0 }} – {{ index . 1 }}</span>.{{ end }}
@@ -115,7 +117,7 @@
       </p>
 
       <ul class="shuffle grid gtc2 gtc3-l gg1 list pl0">
-        {{ range $key, $val := .Site.Data.catalog.actors }}
+        {{ range $key, $val := .Site.Data.actors }}
         <li id="{{ $key }}">
           <img class="w4 br-100 ba" src="{{ .avatar }}" />
           <h3 class="f4 mv0">{{ .name }}</h3>
