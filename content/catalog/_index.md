@@ -13,11 +13,11 @@ better systems for us all that support the [essential principles][principles] of
 malleability.
 
 If you know of people, projects, threads, or anything else that should be added,
-please [contribute][contribute] or [send us a note][feedback]. Similarly, please
-let us know about anything that should be removed or corrected.
+please [edit the wiki][catalog-wiki] or [send us a note][feedback]. Similarly,
+please let us know about anything that should be removed or corrected.
 
 _Order in the catalog is randomised on each page load._
 
 [principles]: {{< relref "/pages/mission.md">}}
-[contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
+[catalog-wiki]: https://forum.malleable.systems/c/catalog/7
 [feedback]: mailto:hello@malleable.systems

@@ -22,52 +22,30 @@ people, discussions, and other efforts in this field. We hope it can grow to
 become a comprehensive list of resources for the community.
 
 If you know of people, projects, threads, or anything else that should be added
-to [the catalog][catalog], please feel free to [edit the data][catalog-data] and
-open a pull request. If you're not sure what should be added, but you'd like to
-help with the curation effort, there's a [queue of items waiting to be
-added][catalog-issues], and we'd be happy to have your help curating them. If
-curation sounds like too much work, please at least [open an issue][issue] so it
-can eventually be added when someone has time to do so.
+to [the catalog][catalog], please feel free to [edit the wiki][catalog-wiki]. If
+you're not sure what should be added, but you'd like to help with the curation
+effort, there's a [queue of items waiting to be added][catalog-issues], and we'd
+be happy to have your help curating them. If curation sounds like too much work,
+please at least [open an issue][issue] so it can eventually be added when
+someone has time to do so.
 
-The current workflow for adding something to catalog looks roughly like this:
+The [about page][catalog-wiki-about] for the catalog wiki describes the
+forum-focused process in a bit more detail, and hopefully it given enough
+guidance to start making a contribution. Once you have edited the forum-based
+wiki, a site admin will merge the wiki changes into this repo.
 
-1. Read / try / examine the item you're interested in adding
-2. Quotes that highlight the connection to the collective's mission are a big
-   part of the catalog, so try to find a few as you go along
-3. If this is your first contribution, add yourself to the [contributors
-   list][contributors-data] using your username as the ID and including your
-   avatar
-4. Add a new entry to the list of works in the [catalog data][catalog-data]
-5. For help with filling out the various fields, you can look at other examples
-   in the catalog as well as the [template][catalog-template] that renders the
-   catalog page (it's not a very strict schema, so you occasionally may need to
-   add new fields or tweak the template)
-6. The list of `actors` in the catalog data highlights key people who have
-   authored significant related works. Only a subset of authors are added here,
-   and it's a bit of a subjective choice. If someone is appearing in several
-   works, that suggests it's a good moment to add more info about them in the
-   actors list and reference them by their actor ID in the author list of all
-   their works. If you're adding the first work by a particular author, it's
-   likely best to just list their name explicitly in the work data and skip the
-   `actors` list.
-7. The `suggesters` field tracks anyone who may have mentioned the item might be
-   a good fit for the catalog, and ideally this references their ID from the
-   [contributors list][contributors-data], but we can clean that up in a
-   separate pass if it's too much trouble
-8. The `curators` field tracks anyone involved in summarising and writing up the
-   catalog metadata, and that's you, so please add your ID from the
-   [contributors list][contributors-data] here
-9. Add at least one and up to a few quotes that highlight how the item relates
-   to the collective's mission
-10. Open a pull request, and we'll review and merge your addition! 🎉
+### Contributors
 
-You may have noticed there's quite a few fields tracking who did what along the
-way. At the collective, we believe it's important to recognise all forms of
+At the collective, we believe it's important to recognise all forms of
 contribution, so we're doing our best to record everyone involved in the process
-so we can feature them on the site ([soon][feature-contributors]).
+so we can [feature][contributors] them on the site. If you have made some kind
+of contribution, feel free to add yourself to the [contributors
+list][contributors-data]. A site admin may also do this for you.
 
-If you would like to preview your new item before submission, you should be able
-to do so:
+### Preview
+
+If you would like to preview any changes made to the site, you should be able to
+do so locally:
 
 1. Install [Hugo][hugo]
 2. Clone this repo
@@ -89,10 +67,10 @@ achieve that, please [open an issue][issue] or [send us a note][mail].
 [catalog]: https://malleable.systems/catalog/
 [issue]: https://github.com/malleable-systems/malleable.systems/issues/new
 [mail]: mailto:hello@malleable.systems
-[catalog-data]: data/catalog.yaml
-[catalog-template]: layouts/catalog/list.html
+[catalog-wiki]: https://forum.malleable.systems/c/catalog/7
+[catalog-wiki-about]: https://forum.malleable.systems/t/about-the-catalog-category/14
 [catalog-issues]: https://github.com/malleable-systems/malleable.systems/issues?q=is%3Aissue+is%3Aopen+label%3Acatalog
+[contributors]: https://malleable.systems/#contributors
 [contributors-data]: data/contributors.yaml
 [avatars]: static/avatars/
-[feature-contributors]: https://github.com/malleable-systems/malleable.systems/issues/42
 [hugo]: https://gohugo.io/
