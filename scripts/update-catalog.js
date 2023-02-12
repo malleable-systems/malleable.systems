@@ -11,6 +11,8 @@ const topicPath = config.get("topicPath");
 const postPath = config.get("postPath");
 const dataDir = config.get("dataDir");
 
+const catalogLinksRE = new RegExp(forumSite + topicPath + "(.+)/\\d+", "g");
+
 async function getJSON(path) {
   const response = await fetch(forumSite + path, {
     headers: {
@@ -71,6 +73,12 @@ async function processPost(post, topic) {
     description = afterByline;
   }
 
+  // Replace any description links to other catalog entries with slug anchors
+  const catalogLinksMatches = [...raw.matchAll(catalogLinksRE)];
+  for (const match of catalogLinksMatches) {
+    description = description.replace(match[0], `#${match[1]}`);
+  }
+
   let image;
   const imageMatch = cooked.match(/<img src="(.+?)" alt/i);
   if (imageMatch) {
@@ -83,8 +91,8 @@ async function processPost(post, topic) {
   const curatorsMatch = raw.match(/curators: (.*)/i);
   const curators = curatorsMatch?.[1].split(", ") ?? [];
 
-  const resourcesMatch = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)(: (.*))?/mg)];
-  let resources = resourcesMatch.map(match => {
+  const resourcesMatches = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)(: (.*))?/mg)];
+  let resources = resourcesMatches.map(match => {
     return {
       label: match[1],
       url: match[2],
@@ -95,8 +103,8 @@ async function processPost(post, topic) {
     resources = undefined;
   }
 
-  const quotesMatch = [...raw.matchAll(/>\s+(.*)/g)];
-  let quotes = quotesMatch.map(match => match[1]);
+  const quotesMatches = [...raw.matchAll(/>\s+(.*)/g)];
+  let quotes = quotesMatches.map(match => match[1]);
   if (!quotes.length) {
     quotes = undefined;
   }
