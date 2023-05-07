@@ -15,14 +15,15 @@ We have various ways to share and discuss work from the community:
 
 * Follow and mention the community on [Mastodon][mastodon] and
   [Twitter][twitter]
+* Join the discussion in our [forum][forum]
 * Chat with us in our [Matrix room][matrix]
 * Read the community [blog][blog] where we share projects and essays in various
   states of completion
 * Subscribe to the [newsletter][newsletter] if you prefer to receive the blog
   content via email
 
-The [Matrix room][matrix] currently has the most activity, so we encourage you
-to give that a try.
+The [forum][forum] and [Matrix room][matrix] currently have the most activity,
+so we encourage you to give them a try.
 
 ### Contribute
 
@@ -54,6 +55,7 @@ achieve that, please let us know.
 [feedback]: mailto:hello@malleable.systems
 [mastodon]: https://hachyderm.io/@malleablesys
 [twitter]: https://twitter.com/malleablesys
+[forum]: https://forum.malleable.systems
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org
 [blog]: {{< relref "/blog/_index.md" >}}
 [newsletter]: https://buttondown.email/malleable-systems

@@ -31,6 +31,13 @@
   <i class="fa fa-twitter fa-2x"></i>
 </a>
 {{ end }}
+{{ with .Param "forum" }}
+<a href="{{ . }}"
+   target="_blank" rel="noopener me" title="Forum"
+   class="link-transition social link mr1">
+  <i class="fa fa-comments fa-2x"></i>
+</a>
+{{ end }}
 {{ with .Param "matrix" }}
 <a href="{{ . }}"
    target="_blank" rel="noopener me" title="Matrix"

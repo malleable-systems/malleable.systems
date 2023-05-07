@@ -18,8 +18,9 @@ params:
     - blog
   email: mailto:hello@malleable.systems
   newsletter: https://buttondown.email/malleable-systems
-  twitter: https://twitter.com/malleablesys
   mastodon: https://hachyderm.io/@malleablesys
+  twitter: https://twitter.com/malleablesys
+  forum: https://forum.malleable.systems
   matrix: https://matrix.to/#/#malleable-systems:matrix.org
   github: https://github.com/malleable-systems
   source: https://github.com/malleable-systems/malleable.systems
