@@ -110,8 +110,10 @@ async function processPost(post, topic) {
     resources = undefined;
   }
 
-  const quotesMatches = [...raw.matchAll(/>\s+(.*)/g)];
-  let quotes = quotesMatches.map(match => match[1]);
+  const quotesMatches = [...raw.matchAll(/(>\s+.*\n)+/g)];
+  let quotes = quotesMatches.map(match => {
+    return match[0].replaceAll(/>\s+/g, "").trim();
+  });
   if (!quotes.length) {
     quotes = undefined;
   }
