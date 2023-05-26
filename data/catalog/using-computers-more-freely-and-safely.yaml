@@ -1,0 +1,24 @@
+kind: talk
+authors:
+  - Kartik Agaram
+title: Using computers more freely and safely
+year: 2023
+location: http://akkartik.name/freewheeling
+description: Manifesto for [Freewheeling
+  Apps](https://forum.malleable.systems/t/freewheeling-apps/52) and experience
+  report in trying to create situated software. Argues for building situated
+  software out of situated tools that are parsimonious in dependencies and
+  infrequently updated.
+image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/e8d4f16ed1229199c5c67095063bbff8103110b0_2_690x378.png
+suggesters:
+  - "@akkartik"
+curators:
+  - "@jryans @akkartik"
+quotes:
+  - |-
+    Prefer software:
+    * with thousands rather than millions of users
+    * that seldom requires updates
+    * that spawns lots of forks
+    * that is easy to modify
+    * that _you_ can modify
