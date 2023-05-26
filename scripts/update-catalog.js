@@ -76,7 +76,14 @@ async function processPost(post, topic) {
   // Replace any description links to other catalog entries with slug anchors
   const catalogLinksMatches = [...raw.matchAll(catalogLinksRE)];
   for (const match of catalogLinksMatches) {
-    description = description.replace(match[0], `#${match[1]}`);
+    // TODO: Perhaps check an in-memory list of topics instead of files...?
+    const target = match[1];
+    const targetFileName = target + ".yaml";
+    const targetDataPath = path.join(dataDir, targetFileName);
+    if (!fs.existsSync(targetDataPath)) {
+      continue;
+    }
+    description = description.replace(match[0], `#${target}`);
   }
 
   let image;
