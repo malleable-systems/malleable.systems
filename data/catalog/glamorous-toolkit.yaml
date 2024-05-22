@@ -8,7 +8,7 @@ years:
 location: https://gtoolkit.com/
 description: A development environment built on top of
   [Pharo](https://pharo.org/), a modern successor of [Smalltalk](#smalltalk).
-image: https://forum.malleable.systems/uploads/default/optimized/1X/aed4cc46e8e19bf54fa6b87b7f0d180a09fd0a1c_2_690x423.png
+image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/aed4cc46e8e19bf54fa6b87b7f0d180a09fd0a1c_2_690x423.png
 suggesters:
   - jryans
 curators:
