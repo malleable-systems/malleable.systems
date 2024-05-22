@@ -42,6 +42,8 @@
             <i class="fa fa-bicycle fa-fw" title="Tool"></i>
             {{ else if eq .kind "talk"}}
             <i class="fa fa-comment-o fa-fw" title="Talk"></i>
+            {{ else if eq .kind "idea"}}
+            <i class="fa fa-lightbulb-o fa-fw" title="Idea"></i>
             {{ else }}
             <i class="fa fa-question-circle fa-fw" title="Unknown"></i>
             {{ end }}
