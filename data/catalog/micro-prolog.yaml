@@ -1,0 +1,22 @@
+kind: tool
+authors:
+  - Sinclair Research
+title: Micro-PROLOG
+year: 1983
+location: https://worldofspectrum.net/item/0008429/
+description: A Prolog implementation for the 48K Sinclair ZX Spectrum, with no
+  disk drive and only cassette tape for storage, in 1983.
+image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/068c448bd0757d79335832ae6437f52d30347a2b_2_350x500.jpeg
+suggesters:
+  - natecull
+curators:
+  - natecull
+additional_resources:
+  - label: Spectrum Computing database entry
+    url: https://spectrumcomputing.co.uk/entry/8429/ZX-Spectrum/Micro-PROLOG
+  - label: Disassembled code
+    url: https://github.com/oldcompcz/micro-PROLOG
+  - label: Introduction to Micro-PROLOG
+    url: https://worldofspectrum.org/pub/sinclair/games-info/m/Micro-PROLOG.pdf
+  - label: Micro-PROLOG Primer
+    url: https://worldofspectrum.org/pub/sinclair/games-info/m/Micro-PROLOGPrimer.pdf

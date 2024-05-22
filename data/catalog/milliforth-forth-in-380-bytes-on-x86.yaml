@@ -1,0 +1,17 @@
+kind: tool
+authors:
+  - fuzzballcat
+title: "milliForth: Forth in 380 bytes (on x86)"
+year: 2023
+location: https://github.com/fuzzballcat/milliForth
+suggesters:
+  - natecull
+curators:
+  - natecull
+  - akkartik
+additional_resources:
+  - label: Hacker News discussion
+    url: https://news.ycombinator.com/item?id=38158309
+quotes:
+  - A FORTH in 336 bytes — the smallest real programming language ever, as of
+    yet.

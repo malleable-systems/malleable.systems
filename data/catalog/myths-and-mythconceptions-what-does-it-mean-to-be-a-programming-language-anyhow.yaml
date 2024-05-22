@@ -1,0 +1,30 @@
+kind: paper
+authors:
+  - Mary Shaw
+title: "Myths and mythconceptions: What does it mean to be a programming
+  language, anyhow?"
+year: 2022
+location: https://dl.acm.org/doi/10.1145/3480947
+suggesters:
+  - jryans
+  - khinsen
+curators:
+  - jryans
+quotes:
+  - The steep learning curve for these languages is a barrier to entry for many
+    people. Part of the reward for this effort is an associated mystique about
+    having mastered the special knowledge.
+  - As computation has become pervasive, more and more people who are not
+    professionally trained as programmers are creating and tailoring software as
+    a means to achieve goals of their own. These vernacular software developers
+    are principally interested in their own tasks, not in the software as a
+    primary objective.
+  - Many *vernacular software developers* are highly trained in their own
+    domains and only lightly trained in traditional programming. They use a
+    variety of tools and notations including spreadsheets, scripting, data
+    schemas, markups, domain-specific languages, visual web development tools,
+    and scientific libraries.
+  - Without adequate specifications for the components, there’s no way to reason
+    formally about the result. When owners of components can change them without
+    notice, users have no assurances. As a result, formal verification is, on
+    the whole, a minor player for real software.

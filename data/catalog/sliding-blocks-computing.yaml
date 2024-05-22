@@ -1,0 +1,14 @@
+kind: paper
+authors:
+  - Robert A. Hearn
+title: Sliding Blocks Computing
+year: 2003
+location: https://groups.csail.mit.edu/mac/users/bob/sliding-blocks.pdf
+image: https://forum-cdn.malleable.systems/uploads/default/original/1X/7763a5312ae68362a5e4ea33d70404832140f25a.png
+suggesters: []
+curators: []
+quotes:
+  - Consider the AND mini-puzzle. Suppose the goal is to slide the upper
+    protruding block into the box? The answer is that first the left block and
+    the bottom block must both be slid out one unit. This will let the internal
+    blocks slide to free up space for the upper block to slide in.

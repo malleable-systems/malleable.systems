@@ -1,0 +1,35 @@
+kind: tool
+authors:
+  - John Earnest
+title: Decker
+years:
+  - 2022
+  - present
+location: https://beyondloom.com/decker/
+description: A multimedia platform for creating and sharing interactive
+  documents, with sound, images, hypertext, and scripted behavior.
+image: https://forum-cdn.malleable.systems/uploads/default/original/1X/a464a823974d0aa05d948693912a4825cc02a47d.gif
+suggesters:
+  - "@johnearnest"
+curators:
+  - "@johnearnest"
+additional_resources:
+  - label: Github Repository
+    url: https://github.com/JohnEarnest/Decker
+  - label: Decker Community Forum
+    url: https://internet-janitor.itch.io/decker/community
+quotes:
+  - Decker builds on the legacy of
+    [HyperCard](https://en.wikipedia.org/wiki/HyperCard) and the visual
+    aesthetic of classic macOS. It retains the simplicity and ease of learning
+    that HyperCard provided, while adding many subtle and overt quality-of-life
+    improvements, like deep undo history, support for scroll wheels and
+    touchscreens, more modern keyboard navigation, and bulk editing operations.
+  - Anyone can use Decker to create E-Zines, organize their notes, give
+    presentations, build adventure games, or even just doodle some 1-bit pixel
+    art. The holistic "ditherpunk" aesthetic is cozy, a bit nostalgic, and
+    provides fun and distinctive creative constraints. As a prototyping tool,
+    Decker encourages embracing a sketchy, imperfect approach. Finished decks
+    can be saved as standalone .html documents which self-execute in a web
+    browser and can be shared anywhere you can host or embed a web page. Decker
+    also runs natively on macOS, Windows, and Linux.

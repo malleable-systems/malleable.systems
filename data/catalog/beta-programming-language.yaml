@@ -1,0 +1,29 @@
+kind: tool
+authors:
+  - Kristen Nygaard
+title: BETA (programming language)
+year: 1993
+location: https://beta.cs.au.dk/
+description: Kristen Nygaard, the author of the first object-oriented language
+  (SIMULA), went on to develop an interesting early OOP language called BETA.
+suggesters:
+  - natecull
+curators:
+  - natecull
+additional_resources:
+  - label: Wikipedia
+    url: https://en.wikipedia.org/wiki/BETA_(programming_language)
+  - label: HOPL paper (2007)
+    url: https://web.archive.org/web/20170808220531id_/https://users-cs.au.dk/olm/index.html/PUB/BETA-HOPL-V4.7_ref.pdf
+quotes:
+  - "This paper tells the story of the development of BETA: a programming
+    language with just one abstraction mechanism, instead of one abstraction
+    mechanism for each kind of program element (classes, types, procedures,
+    functions, etc.). The paper explains how this single abstraction mechanism,
+    the pattern, came about and how it was designed to be so powerful that it
+    covered the other mechanisms."
+  - The BETA project was started in 1976 and was originally supposed to be
+    completed in a year or two. For many reasons, it evolved into an almost
+    lifelong activity involving Nygaard, the authors of this paper and many
+    others. The BETA project became an endeavor for discussing issues related to
+    programming languages, programming and informatics in general.

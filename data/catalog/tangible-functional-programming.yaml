@@ -1,0 +1,27 @@
+kind: paper
+authors:
+  - Conal Elliott
+title: Tangible Functional Programming
+year: 2007
+location: http://conal.net/papers/Eros/
+suggesters:
+  - Apostolis
+curators:
+  - Apostolis
+additional_resources:
+  - label: Blog post
+    url: http://conal.net/blog/posts/tangible-functional-programming-a-modern-marriage-of-usability-and-composability
+  - label: Talk at Google
+    url: https://youtu.be/faJ8N0giqzw
+  - label: Talk slides
+    url: http://conal.net/talks/tangible-functional-programming-2007-11.pdf
+quotes:
+  - We present a user-friendly approach to unifying program creation and
+    execution, based on a notion of “tangible values” (TVs), which are visual
+    and interactive manifestations of pure values, including functions.
+    Programming happens by gestural composition of TVs. Our goal is to give
+    end-users the ability to create parameterized, composable content without
+    imposing the usual abstract and linguistic working style of programmers. We
+    hope that such a system will put the essence of programming into the hands
+    of many more people, and in particular people with artistic/visual creative
+    style.

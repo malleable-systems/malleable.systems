@@ -1,0 +1,19 @@
+kind: post
+authors:
+  - Graham Shawcross
+title: Wang Tiles Computing
+year: 2012
+location: https://grahamshawcross.com/2012/10/12/wang-tiles-and-turing-machines/
+image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/cce371e4bebde5859b52cf66c065f14f36ee2797_2_322x499.jpeg
+suggesters:
+  - neauoire
+curators:
+  - neauoire
+quotes:
+  - >-
+    Wang pointed out that it is possible to find sets of Wang tiles that mimic
+    the behaviour of any Turing Machine (Wang 1975).
+
+    A Turing machine can compute all recursive functions, that is functions whose values can be calculated in a finite number of steps. That is to do, however inefficiently, what any conceivable computer can do.
+
+    The basic idea is to use rows of tiles to simulate the tape in the machine, with successive rows corresponding to consecutive states of the machine.
