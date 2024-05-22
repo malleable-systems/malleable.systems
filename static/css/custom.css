@@ -151,6 +151,10 @@ main a:hover {
   margin: 1em 0;
 }
 
+#catalog #works+.list img {
+  max-height: 16rem;
+}
+
 #TableOfContents ul {
   padding-left: 1.5rem;
 }
