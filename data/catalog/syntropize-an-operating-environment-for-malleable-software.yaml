@@ -1,0 +1,21 @@
+kind: tool
+authors:
+  - Rahul Gupta
+title: "Syntropize: An Operating Environment for Malleable Software"
+years:
+  - 2022
+  - present
+location: https://syntropize.com
+description: Syntropize is a proposal for a malleable software operating
+  environment, an attempt to reclaim the original vision of personal computing
+  as the means to augment human intellect.
+suggesters: []
+curators:
+  - cxres
+additional_resources:
+  - label: Documentation
+    url: https://syntropize.com/docs/
+  - label: Repository
+    url: https://gitlab.com/syntropize/syntropize
+  - label: Downloads
+    url: https://gitlab.com/syntropize/syntropize/-/releases
