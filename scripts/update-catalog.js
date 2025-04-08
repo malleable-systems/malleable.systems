@@ -91,6 +91,9 @@ async function processPost(post, topic) {
   if (imageMatch) {
     image = imageMatch[1];
   }
+  if (image && image.includes("emoji")) {
+    image = undefined;
+  }
 
   const suggestersMatch = raw.match(/suggesters: (.*)/i);
   let suggesters = suggestersMatch?.[1].split(", ") ?? [];
