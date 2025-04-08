@@ -10,9 +10,9 @@ description: A multimedia platform for creating and sharing interactive
   documents, with sound, images, hypertext, and scripted behavior.
 image: https://forum-cdn.malleable.systems/uploads/default/original/1X/a464a823974d0aa05d948693912a4825cc02a47d.gif
 suggesters:
-  - "@johnearnest"
+  - johnearnest
 curators:
-  - "@johnearnest"
+  - johnearnest
 additional_resources:
   - label: Github Repository
     url: https://github.com/JohnEarnest/Decker

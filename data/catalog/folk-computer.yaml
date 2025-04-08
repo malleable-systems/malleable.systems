@@ -1,0 +1,21 @@
+kind: tool
+authors:
+  - Omar Rizwan
+  - collaborators
+title: folk.computer
+years:
+  - 2023
+  - present
+location: https://folk.computer
+description: "Folk is a physical computing system: reactive database,
+  programming environment, projection mapping. Instead of a
+  phone/laptop/touchscreen/mouse/keyboard, your computational objects are
+  physical objects in the real world, and you can program them inside the system
+  itself. Folk is [written in a mix of C and
+  Tcl](https://github.com/FolkComputer/folk/blob/main/docs/design.md)."
+suggesters:
+  - apostolis
+curators: []
+additional_resources:
+  - label: Examples
+    url: https://folk.computer/notes/tableshots

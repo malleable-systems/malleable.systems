@@ -1,0 +1,20 @@
+kind: tool
+authors:
+  - Rek Bellum
+  - Devine Lu Linvega
+title: "Tote: Multiset Rewriting Language"
+year: 2025
+location: https://hundredrabbits.itch.io/tote
+description: I've been interested for a while in symbolic visual programming,
+  and I made a IDE to test some ideas around writing GUIs entirely in [multiset
+  rewrite rules](https://wiki.xxiivv.com/site/fractran.html). Tote is a
+  playground that lets me play with some of these ideas. I think it's relevant
+  to malleable systems because it presents programming in its most elementary
+  form(a single while loop), and can be implemented easily on near anything at
+  all, in fact, all you need for this is a bag with marbles of different shapes
+  or color.
+image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/be2f1682ea79f2d2ce32697bd4edf5163ee19c23_2_690x243.png
+suggesters:
+  - neauoire
+curators:
+  - neauoire

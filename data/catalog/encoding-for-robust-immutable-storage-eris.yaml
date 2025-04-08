@@ -1,0 +1,15 @@
+kind: tool
+authors:
+  - Endo Renberg
+title: Encoding for Robust Immutable Storage (ERIS)
+year: 2022
+location: http://eris.codeberg.page
+suggesters: []
+curators:
+  - emery
+quotes:
+  - ERIS is an encoding of arbitrary content into a set of uniformly sized,
+    encrypted and content-addressed blocks as well as a short identifier that
+    can be encoded as an URN. The content can be reassembled from the blocks
+    only with this identifier. The encoding is defined independent of any
+    storage and transport layer or any specific application.

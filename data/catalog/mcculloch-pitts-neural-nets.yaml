@@ -1,0 +1,20 @@
+kind: post
+authors:
+  - Devine Lu Linvega
+title: McCulloch-Pitts Neural Nets
+year: 2025
+location: https://wiki.xxiivv.com/site/neural_nets.html
+description: In exploring parallel rewriting systems, I stumbled onto something
+  like neural networks and it pushed me to dive deeper into the topic and
+  learning how they worked. I was surprised how capable this nice little OISC
+  was. I implemented a textual graph representation language and runtime in
+  about [150 lines of C89](https://wiki.xxiivv.com/etc/neur.c.txt), or about
+  [300 lines of Uxn](https://wiki.xxiivv.com/etc/neur.tal.txt). I think this is
+  relevant to the Malleable community due to it being a symbolic system which is
+  popular with malleable systems, as well as people exploring portable and
+  parallel computation models.
+image: https://wiki.xxiivv.com/media/refs/neuron.png
+suggesters:
+  - neauoire
+curators:
+  - neauoire

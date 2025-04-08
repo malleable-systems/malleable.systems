@@ -1,0 +1,16 @@
+kind: tool
+authors:
+  - Wryl
+title: "Nova: Multiset Rewriting Language"
+year: 2024
+location: https://nova-lang.net/
+description: Nova is a rewriting language with a very simple core that holds a
+  fantastically comfy UX to program in, to extend, to communicate with over a
+  wire, take dynamic notes in, etc.
+suggesters:
+  - neauoire
+curators:
+  - neauoire
+additional_resources:
+  - label: Handmade Seattle talk (2024)
+    url: https://www.youtube.com/live/OfnEfFb8yks?si=ym_7hTF6UU0KzJAe&t=6315

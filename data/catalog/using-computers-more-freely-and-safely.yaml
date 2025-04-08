@@ -11,9 +11,10 @@ description: Manifesto for [Freewheeling
   infrequently updated.
 image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/e8d4f16ed1229199c5c67095063bbff8103110b0_2_690x378.png
 suggesters:
-  - "@akkartik"
+  - akkartik
 curators:
-  - "@jryans @akkartik"
+  - jryans
+  - akkartik
 quotes:
   - |-
     Prefer software:

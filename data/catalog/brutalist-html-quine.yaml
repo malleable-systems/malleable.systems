@@ -1,0 +1,21 @@
+kind: idea
+authors:
+  - Leon Bambrick
+title: Brutalist HTML quine
+year: 2019
+location: https://secretgeek.github.io/html_wysiwyg/html.html
+description: "This technique uses CSS magic to expose the full tag structure
+  underlying the page. "
+suggesters:
+  - cben
+curators:
+  - cben
+quotes:
+  - >-
+    `<p>`A different but somehow related topic I like is `<a
+    href="https://en.wikipedia.org/wiki/Brutalist_architecture">`[brutalism](https://en.wikipedia.org/wiki/Brutalist_architecture)`</a>`,
+    in particular, this often overlooked aspect:`</p>`
+
+    `<blockquote>`Another common theme in Brutalist designs is the exposure of the building's functions.`</blockquote>`
+
+    `<p>`...the tendency to **`<strong>`make the internal external`</strong>`**, and reveal the secrets of the building, in a somehow.... *`<em>`brutaful`</em>`* way. ;-).`</p>`

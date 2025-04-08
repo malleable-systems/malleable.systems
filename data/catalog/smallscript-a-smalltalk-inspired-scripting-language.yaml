@@ -1,0 +1,12 @@
+kind: post
+authors:
+  - Łukasz Bownik
+title: "Smallscript: A Smalltalk-inspired Scripting Language"
+year: 2024
+location: https://www.codeproject.com/Articles/5373567/Smallscript-A-Smalltalk-Inspired-Scripting-Language
+description: The interesting feature of Smallscript is the set of slight changes
+  and modernizations it makes to classic Smalltalk syntax.
+suggesters:
+  - natecull
+curators:
+  - natecull
