@@ -93,10 +93,16 @@ async function processPost(post, topic) {
   }
 
   const suggestersMatch = raw.match(/suggesters: (.*)/i);
-  const suggesters = suggestersMatch?.[1].split(", ") ?? [];
+  let suggesters = suggestersMatch?.[1].split(", ") ?? [];
+  suggesters = suggesters.map(name => {
+    return name.replace(/^@/, "");
+  });
 
   const curatorsMatch = raw.match(/curators: (.*)/i);
-  const curators = curatorsMatch?.[1].split(", ") ?? [];
+  let curators = curatorsMatch?.[1].split(", ") ?? [];
+  curators = curators.map(name => {
+    return name.replace(/^@/, "");
+  });
 
   const resourcesMatches = [...raw.matchAll(/^[-*] \[(.*)\]\((.*)\)(: (.*))?/mg)];
   let resources = resourcesMatches.map(match => {
