@@ -116,7 +116,7 @@ async function processPost(post, topic) {
     resources = undefined;
   }
 
-  const quotesMatches = [...raw.matchAll(/(>\s+.*\n)+/g)];
+  const quotesMatches = [...raw.matchAll(/(^>\s+.*\n)+/gm)];
   let quotes = quotesMatches.map(match => {
     return match[0].replaceAll(/>\s+/g, "").trim();
   });
