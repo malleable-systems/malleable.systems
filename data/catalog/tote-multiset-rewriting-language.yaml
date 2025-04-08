@@ -10,7 +10,7 @@ description: I've been interested for a while in symbolic visual programming,
   rewrite rules](https://wiki.xxiivv.com/site/fractran.html). Tote is a
   playground that lets me play with some of these ideas. I think it's relevant
   to malleable systems because it presents programming in its most elementary
-  form(a single while loop), and can be implemented easily on near anything at
+  form (a single while loop), and can be implemented easily on near anything at
   all, in fact, all you need for this is a bag with marbles of different shapes
   or color.
 image: https://forum-cdn.malleable.systems/uploads/default/optimized/1X/be2f1682ea79f2d2ce32697bd4edf5163ee19c23_2_690x243.png

@@ -10,6 +10,11 @@ suggesters:
   - emery
 curators:
   - emery
+additional_resources:
+  - label: About
+    url: https://syndicate-lang.org/about/
+  - label: Repo
+    url: https://git.syndicate-lang.org/syndicate-lang
 quotes:
   - >-
     Functional programs are easy to write, but programs that interact with each
@@ -18,17 +23,3 @@ quotes:
     Programming models like the Actor model and the Tuplespace model make great strides toward simplifying programs that communicate. However, a few key difficulties remain.
 
     The Syndicated Actor model addresses these difficulties. It is closely related to both Actors and Tuplespaces, but builds on a different underlying primitive: *eventually-consistent replication of state* among actors. Its design also draws on widely deployed but informal ideas like publish/subscribe messaging.
-  - >-
-    Three big ideas fit together to yield the complete vision:
-
-    ### Syndicated Actor Model
-
-    Integrates Actors with Tuplespace-like shared state, Ambients-like treatment of system boundaries, and Erlang-like techniques for signalling and recovering from partial failure. A special kind of syndicated actor, a dataspace, routes and replicates published data according to actors’ interests.
-
-    ### Conversational Concurrency
-
-    A way of thinking about IPC and networking, going beyond message-passing to include ideas of conversational frame and conversational state.
-
-    ### Syndicate Domain-Specific Language
-
-    Extends programming languages with domain-specific language (DSL) constructs for directly expressing syndicated actor and conversational concepts.
