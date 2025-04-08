@@ -1,0 +1,23 @@
+kind: tool
+authors:
+  - Tom Larkworthy
+title: "Lopecode: Self-editing, humanely embeddable Observable notebooks"
+year: 2025
+location: https://tomlarkworthy.github.io/lopecode/webpage.html
+description: Announced by Chris Shank in this [Bluesky
+  posting](https://bsky.app/profile/chrisshank.com/post/3llmhyr33q22x)
+suggesters:
+  - Bosmon
+curators:
+  - Bosmon
+additional_resources:
+  - label: Hacking Observable Notebooks from the Inside (2025)
+    url: https://www.hytradboi.com/2025/5fc19c84-9ad9-49b5-9433-9f83b68a495b-hacking-observable-notebooks-from-within
+quotes:
+  - The hermetic, self-hosted, self-sustainable, recursively exportable,
+    offline-first, file-first, web-based reactive open-source programming
+    substrate built on observable runtime is online finally!
+  - The editing experience is not there yet. Probably wiser to fork the
+    [original
+    Observable](https://observablehq.com/@tomlarkworthy/moldable-webpage)
+    notebook if you seriously want to create a webpage.
