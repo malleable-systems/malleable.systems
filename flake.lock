@@ -16,7 +16,7 @@
         "type": "github"
       }
     },
-    "nixpkgs-hugo": {
+    "nixpkgsHugo": {
       "locked": {
         "lastModified": 1620015740,
         "narHash": "sha256-kNQsw1pCzJM4EPIJEhCi17NMpDE8pwqHamS6ad83rmc=",
@@ -35,7 +35,7 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "nixpkgs-hugo": "nixpkgs-hugo",
+        "nixpkgsHugo": "nixpkgsHugo",
         "systems": "systems"
       }
     },
