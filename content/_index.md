@@ -38,7 +38,7 @@ ensure the power of computing is evenly distributed.
 We hope you agree this is a revolution worth fighting for. We welcome your
 [feedback][feedback] and [contributions][contribute] of related projects and
 experiments from yourself and others. You can follow the community on
-[Mastodon][mastodon], [Twitter][twitter], our [forum][forum], [Matrix][matrix],
+[Mastodon][mastodon], our [forum][forum], [Matrix][matrix],
 and our [blog][blog]. The blog content is also available via our
 [newsletter][newsletter]. The [forum][forum] and [Matrix room][matrix] currently
 have the most activity, so we encourage you to give them a try.
@@ -47,7 +47,6 @@ have the most activity, so we encourage you to give them a try.
 [contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
 [feedback]: mailto:hello@malleable.systems
 [mastodon]: https://hachyderm.io/@malleablesys
-[twitter]: https://twitter.com/malleablesys
 [forum]: https://forum.malleable.systems
 [matrix]: https://matrix.to/#/#malleable-systems:matrix.org
 [blog]: {{< relref "/blog/_index.md" >}}
