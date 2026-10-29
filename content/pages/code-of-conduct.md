@@ -32,6 +32,13 @@ Examples of unacceptable behavior include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
+Generative AI is prohibited in our community:
+
+* Writing messages via generative AI tools
+  in our discussions with each other is not allowed
+* Discussion of projects created with generative AI tools is not allowed
+* Discussion of generative AI tools more generally is also not allowed
+
 The three gates of speech are useful as guide: before you speak, let your words pass through three gates:
 
 * At the first gate, ask yourself, "is it true?"
