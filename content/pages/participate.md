@@ -21,8 +21,8 @@ We have various ways to share and discuss work from the community:
 * Subscribe to the [newsletter][newsletter] if you prefer to receive the blog
   content via email
 
-The [forum][forum] and [Matrix room][matrix] currently have the most activity,
-so we encourage you to give them a try.
+The [forum][forum] currently has the most activity,
+so we encourage you to give that a try.
 
 ### Contribute
 

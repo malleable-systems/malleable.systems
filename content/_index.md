@@ -40,8 +40,8 @@ We hope you agree this is a revolution worth fighting for. We welcome your
 experiments from yourself and others. You can follow the community on
 [Mastodon][mastodon], our [forum][forum], [Matrix][matrix],
 and our [blog][blog]. The blog content is also available via our
-[newsletter][newsletter]. The [forum][forum] and [Matrix room][matrix] currently
-have the most activity, so we encourage you to give them a try.
+[newsletter][newsletter]. The [forum][forum] currently
+has the most activity, so we encourage you to give that a try.
 
 [catalog]: {{< relref "/catalog/_index.md" >}}
 [contribute]: https://github.com/malleable-systems/malleable.systems/blob/main/CONTRIBUTING.md
